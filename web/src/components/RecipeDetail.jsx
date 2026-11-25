@@ -1,6 +1,6 @@
 import {useEffect, useRef} from 'react';
 import {motion} from 'framer-motion';
-import {cleanCuisine, titleCase} from '../lib/facets.js';
+import {cleanCuisine, crScore, titleCase} from '../lib/facets.js';
 import {formatMinutes} from '../lib/browse.js';
 import CrBadge from './CrBadge.jsx';
 import SaveButton from './SaveButton.jsx';
@@ -20,7 +20,7 @@ export default function RecipeDetail({recipe: r, data, saved, onSave, onOpen, on
 
   return (
     <motion.div className="overlay" onClick={onClose} initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
-      <motion.div ref={box} className="sheet" role="dialog" aria-modal="true" aria-labelledby="detail-title" tabIndex={-1}
+      <motion.div ref={box} className={'sheet ' + (crScore(r) >= 3 ? 'sheet-cultural' : 'sheet-basic')} role="dialog" aria-modal="true" aria-labelledby="detail-title" tabIndex={-1}
         onClick={(e) => e.stopPropagation()}
         initial={{opacity: 0, y: 30, scale: .98}} animate={{opacity: 1, y: 0, scale: 1}} exit={{opacity: 0, y: 20}}
         transition={{type: 'spring', stiffness: 260, damping: 28}}>
@@ -72,7 +72,6 @@ export default function RecipeDetail({recipe: r, data, saved, onSave, onOpen, on
             ? <a href={r.source.url} target="_blank" rel="noopener noreferrer">{titleCase(r.source.site || r.source.url)}</a>
             : titleCase(r.source?.site || 'unknown')}
           {r.source?.author ? ` · ${r.source.author}` : ''}
-          {r.source?.retrieved ? ` · retrieved ${r.source.retrieved}` : ''}
         </footer>
       </motion.div>
     </motion.div>
