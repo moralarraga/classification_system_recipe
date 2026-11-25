@@ -156,6 +156,12 @@ a { color: var(--accent); }
   box-shadow: var(--shadow); cursor: pointer;
   transition: border-color .15s, transform .15s;
 }
+/* Recipes with cultural relevance 3 or higher: espresso card, butter sun title, aperol top band */
+.card-btn.card-cultural {
+  --card-bg: var(--espresso);
+  --card-title: var(--butter-sun);
+  border-top: 5px solid var(--aperol);
+}
 .card-btn:hover { border-color: var(--card-hover); transform: translateY(-1px); }
 .card-top { display: flex; align-items: center; gap: 8px; font-size: 12px; }
 .card-id { font-variant-numeric: tabular-nums; }

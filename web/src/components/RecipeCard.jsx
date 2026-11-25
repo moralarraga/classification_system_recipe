@@ -1,5 +1,5 @@
 import {motion} from 'framer-motion';
-import {cleanCuisine, ingredientCount, titleCase} from '../lib/facets.js';
+import {cleanCuisine, crScore, ingredientCount, titleCase} from '../lib/facets.js';
 import {formatMinutes} from '../lib/browse.js';
 import CrBadge from './CrBadge.jsx';
 import SaveButton from './SaveButton.jsx';
@@ -9,7 +9,7 @@ export default function RecipeCard({recipe: r, saved, onOpen, onSave}) {
   const origin = c.countries.length ? c.countries.join(', ') : c.regions.join(', ');
   return (
     <motion.li className="card" layout="position" initial={{opacity: 0, y: 8}} animate={{opacity: 1, y: 0}} transition={{duration: .2}}>
-      <div className="card-btn" role="button" tabIndex={0} onClick={onOpen}
+      <div className={'card-btn' + (crScore(r) >= 3 ? ' card-cultural' : '')} role="button" tabIndex={0} onClick={onOpen}
         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(); } }}>
         <div className="card-top">
           <span>{r.id}</span>
