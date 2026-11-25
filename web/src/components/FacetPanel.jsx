@@ -28,7 +28,7 @@ function Facet({f, data, state, onToggle}) {
           return (
             <li key={v} className={n === 0 && !on ? 'empty' : undefined}>
               <input type="checkbox" id={id} checked={on} disabled={n === 0 && !on} onChange={() => onToggle(f.id, v)} />
-              <label htmlFor={id}><span>{show(v)}</span><span className="v-count">{n}</span></label>
+              <label htmlFor={id}><span>{f.id === 'cr' && /^\d$/.test(v) && <i className={`swatch cr-${v}`} aria-hidden="true" />}{show(v)}</span><span className="v-count">{n}</span></label>
             </li>
           );
         })}
