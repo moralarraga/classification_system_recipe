@@ -73,3 +73,20 @@ test('default sort is ID, or best match while searching', () => {
   assert.equal(readHash('#q=pie').sort, 'relevance');
   assert.equal(writeHash({selected: {}, query: '', sort: 'id'}), '');
 });
+
+test('ingredient facet groups variants of the same ingredient', async () => {
+  const {baseIngredient} = await import('./ingredients.js');
+  for (const x of ['Fresh Peaches', 'Large Ripe Peaches', 'Poached Peach Halves']) assert.equal(baseIngredient(x), 'peach');
+  assert.equal(baseIngredient('large eggs'), 'egg');
+  assert.equal(baseIngredient('scallions'), 'green onion');
+  assert.equal(baseIngredient('minced garlic'), 'garlic');
+  assert.equal(baseIngredient('canned diced tomatoes'), 'tomato');
+  // no over-merging
+  assert.equal(baseIngredient('peanut butter'), 'peanut butter');
+  assert.equal(baseIngredient('coconut milk'), 'coconut milk');
+  assert.equal(baseIngredient('sun-dried tomato'), 'sun-dried tomato');
+  assert.equal(baseIngredient('salted egg'), 'salted egg');
+  assert.equal(baseIngredient('curry leaves'), 'curry leaf');
+  const peach = filterRecipes(data, st({selected: {ingredient: new Set(['peach'])}}));
+  assert.ok(peach.length >= 1);
+});

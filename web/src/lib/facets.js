@@ -11,6 +11,7 @@
  * Within one facet, checked values are OR'd. Across facets they are AND'd.
  * To add or change a facet, edit the FACETS array at the bottom.
  */
+import {baseIngredient} from './ingredients.js';
 
 
 /* ---------- Cleaning the cuisine tags ----------
@@ -101,11 +102,14 @@ export function ingredientCount(recipe) {
   return new Set((recipe.ingredients || []).map((i) => i.raw)).size;
 }
 
-/* ---------- Ingredients (item names) ---------- */
+/* ---------- Ingredients (grouped into base ingredients) ----------
+ * "Fresh Peaches", "Large Ripe Peaches" and "Poached Peach Halves" all become
+ * "peach". The grouping rules are in src/data/ingredientVocabulary.js. */
 function ingredientItems(recipe) {
   const items = new Set();
   for (const ing of recipe.ingredients || []) {
-    if (ing.item) items.add(String(ing.item).trim().toLowerCase());
+    const base = baseIngredient(ing.item);
+    if (base) items.add(base);
   }
   return [...items];
 }
@@ -124,7 +128,8 @@ function sourceType(recipe) {
 }
 
 export function titleCase(s) {
-  return s.replace(/\b([a-z])/g, (m) => m.toUpperCase());
+  // Capitalize the first letter of each word, but not after an apostrophe ("French's").
+  return s.replace(/(^|[\s\-/(])([a-z])/g, (m, pre, c) => pre + c.toUpperCase());
 }
 
 /* ---------- The facet list ---------- */

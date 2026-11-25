@@ -23,6 +23,13 @@ cultural relevance (0-5), region, country/origin, total time, contains ingredien
 Values in one facet are OR'd, different facets are AND'd ("contains ingredient" is AND). Counts show what checking a value would give.
 Cuisine spellings are merged for display only (USA / United States / America -> USA, Asian -> Asia, ...); recipes.json is not changed.
 
+## Ingredient groups (controlled vocabulary)
+The Ingredients facet groups name variants into one base ingredient: "Fresh Peaches", "Large Ripe Peaches"
+and "Poached Peach Halves" all count as "Peach". It strips size, freshness and preparation words, makes the
+last word singular, and applies a synonym list (e.g. scallion -> green onion). The word lists are in
+`src/data/ingredientVocabulary.js`; edit them to change the grouping. recipes.json is not changed.
+This took the facet from 1,111 distinct ingredient names to 884 groups.
+
 ## Search
 `src/lib/search.js` is BM25 (k1 = 1.2, b = 0.75; title counted x3, ingredient items x2). Match these to the IR evaluation if it uses other settings.
 
