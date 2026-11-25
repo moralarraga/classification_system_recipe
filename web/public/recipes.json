@@ -3514,7 +3514,10 @@
     },
     "servings": 4,
     "source_tags": {
-      "cuisine": []
+      "cuisine": [
+        "Americas",
+        "Mexico"
+      ]
     },
     "cultural relevance": {
       "score": 5,
