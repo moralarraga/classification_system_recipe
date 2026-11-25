@@ -156,11 +156,11 @@ a { color: var(--accent); }
   box-shadow: var(--shadow); cursor: pointer;
   transition: border-color .15s, transform .15s;
 }
-/* Recipes with cultural relevance 3 or higher: solid tangerine card, espresso text, palm shadow titles. */
+/* Recipes with cultural relevance 3 or higher: solid tangerine card, espresso text, palm shadow titles, butter sun labels. */
 .card-btn.card-cultural {
   --card-ink: var(--espresso);
   --card-title: var(--palm-shadow);
-  --card-label: var(--espresso);
+  --card-label: var(--butter-sun);
   color: var(--card-ink);
   background: var(--tangerine);
   border-color: var(--tangerine);
