@@ -10,8 +10,8 @@
   --aperol: #D7653A;
   --espresso: #4E3626;
 
-  /* Page: butter sun background, espresso text, aperol main titles */
-  --bg: var(--butter-sun);
+  /* Page: seashell background, espresso text, aperol main titles */
+  --bg: var(--seashell);
   --ink: var(--espresso);
   --ink-2: #5B4533;            /* espresso, softened for secondary text */
   --title: var(--aperol);
@@ -19,13 +19,15 @@
   --accent: var(--palm-shadow); /* checkboxes, links */
   --focus: var(--espresso);
 
-  /* Cards: palm shadow with flax linen text */
+  /* Cards: palm shadow with flax linen text, golden hour titles, espresso labels */
   --card-bg: var(--palm-shadow);
   --card-ink: var(--flax-linen);
+  --card-title: var(--golden-hour);
+  --card-label: var(--espresso);
   --card-hover: var(--golden-hour);
 
-  /* Buttons: seashell with aperol text; hearts are aperol */
-  --btn-bg: var(--seashell);
+  /* Buttons: butter sun with aperol text; hearts are aperol */
+  --btn-bg: var(--butter-sun);
   --btn-ink: var(--aperol);
   --heart: var(--aperol);
 
@@ -159,13 +161,13 @@ a { color: var(--accent); }
 .card-id { font-variant-numeric: tabular-nums; }
 .card-top .cr { margin-left: auto; }
 .card-btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-.card-title { margin: 0; font: 700 18px/1.25 var(--font-display); }
+.card-title { margin: 0; font: 700 18px/1.25 var(--font-display); color: var(--card-title); }
 .card-desc {
   margin: 0; font-size: 14px;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
 .card-meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: auto 0 0; padding-top: 8px; font-size: 13px; }
-.card-meta dt { font-size: 11px; opacity: .9; text-transform: uppercase; letter-spacing: .04em; }
+.card-meta dt { font-size: 11px; color: var(--card-label); text-transform: uppercase; letter-spacing: .04em; }
 .card-meta dd { margin: 0; }
 .card-source { margin: 0; font-size: 12px; }
 .tag { padding: 1px 8px; border-radius: 999px; font-size: 11px; background: var(--key-lime); color: var(--espresso); }
