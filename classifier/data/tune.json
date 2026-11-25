@@ -1,0 +1,3370 @@
+[
+  {
+    "id": "r0003",
+    "title": "Superior Chicken Shawarma",
+    "source": {
+      "site": "the golden balance",
+      "url": "https://www.thegoldenbalance.com/recipes/superiorchickenshawarama",
+      "author": "Ahmad Alzahabi",
+      "retrieved": "2026-10-03"
+    },
+    "description": "The perfect homemade shawarma.",
+    "ingredients": [
+      {
+        "raw": "2 lbs chicken thighs",
+        "quantity": 2,
+        "unit": "pound",
+        "item": "chicken thighs"
+      },
+      {
+        "raw": "2 tablespoons extra virgin olive oil (evoo)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "evoo"
+      },
+      {
+        "raw": "1/4 cup white vinegar",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "white vinegar"
+      },
+      {
+        "raw": "1 lemon juiced",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "lemon"
+      },
+      {
+        "raw": "2 tablespoons tomato paste",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "tomato paste"
+      },
+      {
+        "raw": "2 teaspoons garlic powder",
+        "quantity": 2,
+        "unit": "teaspoon",
+        "item": "garlic powder"
+      },
+      {
+        "raw": "1 teaspoon cumin",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "cumin"
+      },
+      {
+        "raw": "1 teaspoon dry coriander",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "dry coriander"
+      },
+      {
+        "raw": "1 teaspoon allspice",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "allspice"
+      },
+      {
+        "raw": "2 teaspoons smoked paprika",
+        "quantity": 2,
+        "unit": "teaspoon",
+        "item": "smoked paprika"
+      },
+      {
+        "raw": "1 teaspoons onion powder",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "onion powder"
+      },
+      {
+        "raw": "1 teaspoon cardamom powder",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "cardamom powder"
+      },
+      {
+        "raw": "1/2 teaspoon clove",
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "item": "clove"
+      },
+      {
+        "raw": "1/2 teaspoon cayenne pepper",
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "item": "cayenne pepper"
+      },
+      {
+        "raw": "1/2 teaspoon msg",
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "item": "msg"
+      },
+      {
+        "raw": "1 tablespoon sugar",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "sugar"
+      },
+      {
+        "raw": "1 1/2 teaspoon salt",
+        "quantity": 1.5,
+        "unit": "teaspoon",
+        "item": "salt"
+      },
+      {
+        "raw": "10 garlic cloves (for the Toum sauce)",
+        "quantity": 10,
+        "unit": "unit",
+        "item": "garlic"
+      },
+      {
+        "raw": "1 cup neutral oil, divided in two parts (for the Toum sauce)",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "oil"
+      },
+      {
+        "raw": "4 tablespoons lemon juice",
+        "quantity": 4,
+        "unit": "tablespoon",
+        "item": "lemon juice"
+      },
+      {
+        "raw": "4 pitas (for serving)",
+        "quantity": 4,
+        "unit": "unit",
+        "item": "pita"
+      },
+      {
+        "raw": "Baby dill, or arabic, pickles. Thinly sliced (for serving)",
+        "quantity": null,
+        "unit": null,
+        "item": "pickles"
+      }
+    ],
+    "steps": [
+      "Mix together all the spices to make the shawarma blend and set aside. Whisk in the olive oil, vinegar, lemon juice and tomato paste till everything is evenly combined. Slice the chicken thighs into thin strips, about 1 inch thick and toss them thoroughly with the marinade. Let sit overnight or until you lose patience.",
+      "While the chicken marinades, make the toum: add the garlic cloves to a food processor or blender along with half the oil and a pinch of salt. Blend on high speed till the mixture starts to thicken, then add in the rest of the oil and the lemon juice. Keep blending until it becomes thick and bright white. Transfer to a dish and set aside in the fridge till ready to use.",
+      "Heat a large cast iron pan over high heat till smoking hot. Cook the marinated chicken in batches so you do not crowd the pan and get a nice dark charred crust on the chicken pieces. Remove the chicken to a plate while you repeat the cooking process.",
+      "To smoke the meat, line a small heat proof bowl with tin foil, then pour in about 2 Tbsp of olive oil. Add the cooked chicken back into the pan it was cooked in with the bowl of oil in the center and the meat around the edges.",
+      "Heat a piece of lit charcoal till smoking, then drop into the oil and immediately cover the pan with a tight fitting lid. Smoke the chicken shawarma for 8-10 minutes, then discard the oil and charcoal.",
+      "To serve: spread a heaping spoonful of toum over half a warmed pita, layer on some pickles then the chicken shawarma to cover. Roll up the pita and enjoy."
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 20,
+      "total_min": 35
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Asia",
+        "Ottoman Empire (Turkiye, Lebanon, Syria, Jordan, Palestine)"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Iconic dish in the Middle East."
+    }
+  },
+  {
+    "id": "r0005",
+    "title": "Harissa Cod with Leeky Beans and Jalapeno",
+    "source": {
+      "site": "finn tonry",
+      "url": "https://www.finntonry.com/recipe/1-pan-harissa-cod-with-leeky-beans-jalapeo",
+      "author": "Finn Tonry",
+      "retrieved": "2026-10-03"
+    },
+    "description": "High Protein recipe.",
+    "ingredients": [
+      {
+        "raw": "800 gr butterbeans",
+        "quantity": 800,
+        "unit": "gram",
+        "item": "butterbeans"
+      },
+      {
+        "raw": "2 leeks, large",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "leek"
+      },
+      {
+        "raw": "5 garlic cloves",
+        "quantity": 5,
+        "unit": "unit",
+        "item": "garlic"
+      },
+      {
+        "raw": "4 baby courgettes",
+        "quantity": 4,
+        "unit": "unit",
+        "item": "courgette"
+      },
+      {
+        "raw": "2 tablespoons chilli flakes",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "chilli flakes"
+      },
+      {
+        "raw": "150 gr chicken bone broth",
+        "quantity": 150,
+        "unit": "gram",
+        "item": "chicken bone broth"
+      },
+      {
+        "raw": "60 gr parmigiano",
+        "quantity": 60,
+        "unit": "gram",
+        "item": "parmigiano"
+      },
+      {
+        "raw": "2 teaspoons dijon mustard",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "dijon mustard"
+      },
+      {
+        "raw": "2 tablespoons extra virgin olive oil (evoo)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "evoo"
+      },
+      {
+        "raw": "2 lemons (one for the beans, one for the yogurt dressing)",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "lemon"
+      },
+      {
+        "raw": "600 gr cod loins",
+        "quantity": 600,
+        "unit": "gram",
+        "item": "cod"
+      },
+      {
+        "raw": "2 tablespoons harissa paste",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "harissa paste"
+      },
+      {
+        "raw": "1 tablespoon honey",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "honey"
+      },
+      {
+        "raw": "1 lemon",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "lemon"
+      },
+      {
+        "raw": "Salt to taste",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "salt"
+      },
+      {
+        "raw": "250 gr 0% Greek yogurt",
+        "quantity": 250,
+        "unit": "gram",
+        "item": "greek yogurt"
+      },
+      {
+        "raw": "1 tablespoon pickled jalapenos",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "pickled jalapenos"
+      },
+      {
+        "raw": "10 gr dill",
+        "quantity": 10,
+        "unit": "gram",
+        "item": "dill"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 200c and grill to max.",
+      "In a bowl, mix together the harissa, honey, lemon juice and salt. Add the cod loins, coat well and set aside to marinate.",
+      "Slice the leeks in half lengthwise. Take one half and julienne it into strips for the crispy topping. Finely slice the remaining three halves into half moons.",
+      "Set a large, deep frying pan over a medium heat. Once hot, add the olive oil and fry the julienned leeks for 3–4 minutes, stirring regularly, until crispy and golden. Remove and set aside, leaving the oil in the pan.",
+      "Add the sliced leeks, chilli flakes and garlic and cook down for 5–6 minutes until slightly caramelised, add the dijon and cook for another minute. Add the courgettes and cook for a few minutes, then pour in the butterbeans along with their liquid and the bone broth. Mix well and bring to a gentle simmer. After a few minutes, turn off the heat and stir through the parmesan.",
+      "Lay the cod loins on top and slide the pan under the grill, as close to the top as possible, for 6–8 minutes until the cod is just cooked through.",
+      "Meanwhile, finely chop the parsley and dill, mince the green chilli and jalapeños and mix into the yoghurt with the lemon juice and a pinch of salt.",
+      "Bring the pan straight to the table, drizzle over the yoghurt, top with the crispy leeks and serve with lemon wedges."
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 10,
+      "total_min": 25
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Europe",
+        "Italy"
+      ]
+    },
+    "cultural relevance": {
+      "score": 0,
+      "reasoning": null
+    }
+  },
+  {
+    "id": "r0006",
+    "title": "Jibarito",
+    "source": {
+      "site": "tiktok",
+      "url": "https://www.tiktok.com/@runandeatwithjack/video/7643748903338216726",
+      "author": "runandeatwithjack",
+      "retrieved": "2026-10-03"
+    },
+    "description": "Puerto Rican-inspired plantain sandwich.",
+    "ingredients": [
+      {
+        "raw": "1 green plantain",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "green plantain"
+      },
+      {
+        "raw": "1 sirloin steak",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "sirloin"
+      },
+      {
+        "raw": "50 gr lettuce",
+        "quantity": 50,
+        "unit": "gram",
+        "item": "lettuce"
+      },
+      {
+        "raw": "1 tomato",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "tomato"
+      },
+      {
+        "raw": "30 gr mayo",
+        "quantity": 30,
+        "unit": "gram",
+        "item": "mayo"
+      },
+      {
+        "raw": "10 gr ketchup",
+        "quantity": 10,
+        "unit": "gram",
+        "item": "ketchup"
+      },
+      {
+        "raw": "2 slices of your preferred cheese",
+        "quantity": 2,
+        "unit": "slice",
+        "item": "cheese"
+      },
+      {
+        "raw": "1/2 teaspoon salt (for the adobo)",
+        "quantity": 0.5,
+        "unit": "teaspoon",
+        "item": "salt"
+      },
+      {
+        "raw": "1 teaspoon onion powder (for the adobo)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "onion powder"
+      },
+      {
+        "raw": "1 teaspoon garlic powder (for the adobo)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "garlic powder"
+      },
+      {
+        "raw": "1 teaspoon black pepper (for the adobo)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "black pepper"
+      },
+      {
+        "raw": "1 teaspoon white pepper (for the adobo)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "white pepper"
+      },
+      {
+        "raw": "1 teaspoon paprika (for the adobo)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "paprika"
+      },
+      {
+        "raw": "1 teaspoon cumin (for the adobo)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "cumin"
+      },
+      {
+        "raw": "2 teaspoons dry coriander (for the adobo)",
+        "quantity": 2,
+        "unit": "teaspoon",
+        "item": "dry coriander"
+      },
+      {
+        "raw": "2 teaspoons dried oregano (for the adobo)",
+        "quantity": 2,
+        "unit": "teaspoon",
+        "item": "dried oregano"
+      },
+      {
+        "raw": "2 teaspoons tumeric (for the adobo)",
+        "quantity": 2,
+        "unit": "teaspoon",
+        "item": "turmeric"
+      }
+    ],
+    "steps": [
+      "Make the adobo seasoning - combine everything well in a small bowl. You can probably buy this too, I also wouldn't worry too much if you're missing one or two of the ingredients - this is an all purpose mix so it won't totally ruin everything.",
+      "Prep - Slice the tomato, pick your lettuce leaves, peel the plantain and slice in to two roughly equal sized pieces. Pat down your steak and season well with the adobo mix.",
+      "Prep the plantain 'bread' - Deep the plantain pieces in oil for 4 to 5 minutes (or until a knife goes through easily) at 160°C (320°F).",
+      "Remove from the oil and allow to cool a bit until you can handle them, but still have some heat. Squash them flat using something heavy and flat itself. You want these between half a centimetre and a centimetre thick. Refry at 190°C (370°F) until a little darker, crisp and they hold their shape. Rest on a wire rack and immediately season with salt.",
+      "Cook your steak - In a hot pan with oil, fry the steak to your preferred done-ness. I like medium for this, but you do you! Rest the steak and slice in to thin strips.",
+      "Assemble - Plantain, sauce (aioli or garlic mayo mixed with a touch of ketchup - ketchup optional), steak, cheese (optionally melt), lettuce, tomato, more sauce, plantain."
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 15,
+      "total_min": 30
+    },
+    "servings": 1,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "United States"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Jibarito is a sandwich originating from Chicago's Puerto Rican community."
+    }
+  },
+  {
+    "id": "r0007",
+    "title": "Brazilian Lemonade",
+    "source": {
+      "site": "tiktok",
+      "url": "https://www.tiktok.com/@runandeatwithjack/video/7689450579466194198",
+      "author": "runandeatwithjack",
+      "retrieved": "2026-10-03"
+    },
+    "description": "Amazing drink.",
+    "ingredients": [
+      {
+        "raw": "9 Limes",
+        "quantity": 9,
+        "unit": "unit",
+        "item": "lime"
+      },
+      {
+        "raw": "300g sweetened condensed milk",
+        "quantity": 300,
+        "unit": "gram",
+        "item": "sweetened condensed milk"
+      },
+      {
+        "raw": "2 tablespoons white vinegar (to clean the lemons)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "white vinegar"
+      },
+      {
+        "raw": "A pinch of salt",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "salt"
+      },
+      {
+        "raw": "300g sweetened condensed milk",
+        "quantity": 300,
+        "unit": "gram",
+        "item": "sweetened condensed milk"
+      }
+    ],
+    "steps": [
+      "Lime prep - Wash your limes with water and a few tablespoons of white vinegar. We do this because we're going to be using the whole of the lime, pretty much. Peel 7 of the limes and set aside the peel, then using a knife remove the outer pith from all the limes and discard, keeping only the flesh of the limes. The pith is the main source of bitterness so getting rid of as much as we can is our first step.",
+      "First blend - Add the flesh of the limes and peel to a blender, top up with enough water to blend easily and hit go. Don't over blend here, I went for about 20 to 30 seconds on high. This is another way we're combating bitterness, the more you pulverise the flesh, the more chance there is for pithy bitterness to creep in. Strain using a muslin cloth.",
+      "Second blend - Add the lime juice back into the blender, top up with water to 900ml, add the condensed milk, and finally a pinch of salt. Salt also curbs bitterness and enhanced the flavors. Blend again to combine well and it will start to froth.",
+      "Final blend - At this point give it a taste and adjust with more condensed milk or dalt if needed, before adding a bunch of ice to cool the drink and add texture. Blend once more."
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 0,
+      "total_min": 10
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "Brazil"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Originally from Minas Gerais, it has evolved to an iconic symbol of Brazilian cuisine."
+    }
+  },
+  {
+    "id": "r0016",
+    "title": "20-Minute Kashmiri Chai Recipe (Pink Tea)",
+    "source": {
+      "site": "tea for turmeric",
+      "url": "https://www.teaforturmeric.com/20-minute-kashmiri-chai-pink-tea/",
+      "author": "Izzah Cheema",
+      "retrieved": "2026-10-04"
+    },
+    "description": "This easy, one-pot Kashmiri Chai recipe takes less than 20 minutes to make! This is not a traditional Noon Chai recipe, but an accessible version that's still delicious (and pink)!",
+    "ingredients": [
+      {
+        "raw": "1 cup room temperature water",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "water"
+      },
+      {
+        "raw": "2-3 large ice cubes",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "ice cubes"
+      },
+      {
+        "raw": "1 cup water",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "water"
+      },
+      {
+        "raw": "2 tbsp Kashmiri chai leaves, or sub any non-bitter green tea leaves",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "kashmiri chai leaves"
+      },
+      {
+        "raw": "2 star anise",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "star anise"
+      },
+      {
+        "raw": "6 green cardamom pods",
+        "quantity": 6,
+        "unit": "unit",
+        "item": "green cardamom pods"
+      },
+      {
+        "raw": "2 whole cloves, optional",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "cloves"
+      },
+      {
+        "raw": "1 cinnamon stick, optional",
+        "quantity": 1,
+        "unit": "inch",
+        "item": "cinnamon stick"
+      },
+      {
+        "raw": "1/8 tsp heaped baking soda",
+        "quantity": 0.125,
+        "unit": "teaspoon",
+        "item": "baking soda"
+      },
+      {
+        "raw": "1 cup whole milk",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "whole milk"
+      },
+      {
+        "raw": "1/2 cup half and half",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "half and half"
+      },
+      {
+        "raw": "1/4 tsp kosher salt – may need less if using sea salt, or to taste",
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "2-2.5 tbsp sweetener of choice, I've tried cane sugar, brown sugar, and date syrup",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "sweetener"
+      },
+      {
+        "raw": "1/2 tbsp raw almonds, crushed using mortar and pestle",
+        "quantity": 0.5,
+        "unit": "tablespoon",
+        "item": "raw almonds"
+      },
+      {
+        "raw": "1/2 tbsp unsalted pistachios, crushed using mortar and pestle",
+        "quantity": 0.5,
+        "unit": "tablespoon",
+        "item": "unsalted pistachios"
+      }
+    ],
+    "steps": [
+      "Prepare ice water: Combine room temperature water with 2-3 large ice cubes and set aside.",
+      "Heat a medium saucepan over high heat. Add water, Kashmiri chai leaves, star anise, green cardamom pods, cloves and cinnamon (if using) and bring to a boil.",
+      "Once it comes to a boil, add the baking soda. It'll fizz a little. Allow this mixture to boil over high heat for 5-6 minutes. Occasionally, use a ladle to aerate (scoop and pour back) the tea. You'll notice the froth in the water go from pale green to a deep pink color. If not, add another 1/8 tsp of baking soda. The water will be greatly reduced, almost evaporated.",
+      "Add the prepared ice water (discard the ice cubes to prevent diluting). If you'd like, you can aerate several times to deepen the color. Add the milk, half & half, salt, and sweetener. Allow it to a come to a light boil, then immediately turn off the heat. Do not allow it to boil for too long as it'll start to lose some of its pink color. Taste and adjust salt and sweetener.",
+      "Strain the tea into cups and add crushed almonds and pistachios, as desired."
+    ],
+    "time": {
+      "prep_min": 0,
+      "cook_min": 20,
+      "total_min": 20
+    },
+    "servings": 2,
+    "source_tags": {
+      "cuisine": [
+        "Asia",
+        "Pakistan, Kashmir"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Often served at winter weddings in Pakistan."
+    }
+  },
+  {
+    "id": "r0037",
+    "title": "Plátanos Horneados con Crema y Queso (Baked Banana With Crema and Cheese)",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/platanos-horneados-con-crema-y-queso-baked-banana",
+      "author": "Enrique Olvera, Peter Meehan, Daniela Soto-Innes, Gonzalo Goût, and Luis Arellano",
+      "retrieved": "2026-10-06"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "6 heirloom bananas or small plantains, ripe but not black, unpeeled",
+        "quantity": 6,
+        "unit": "unit",
+        "item": "banana"
+      },
+      {
+        "raw": "1 cup (230 g) crema or crème fraîche",
+        "quantity": 230,
+        "unit": "gram",
+        "item": "crema"
+      },
+      {
+        "raw": "1 cup (120 g) crumbled queso fresco",
+        "quantity": 120,
+        "unit": "gram",
+        "item": "queso fresco"
+      }
+    ],
+    "steps": [
+      "Preheat the oven to 400°F.",
+      "Place the whole bananas or plantains on a baking sheet and bake, turning them every 10 minutes, until the peel starts to split and the inside is tender when tested with a skewer, about 40 minutes. Remove from the oven but keep on the baking sheet. Carefully slice the peel lengthwise to just reveal the flesh and drizzle with some crema and sprinkle with cheese. Transfer to plates to serve individually, on a platter, or directly on the baking sheet on the table. Either way, people should carve out their own banana. Serve the remaining crema and cheese in bowls on the side, in case anyone wants more."
+    ],
+    "time": {
+      "prep_min": 5,
+      "cook_min": 40,
+      "total_min": 45
+    },
+    "servings": 6,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "Mexico"
+      ]
+    },
+    "cultural relevance": {
+      "score": 4,
+      "reasoning": "Culturally relevant for the countries with access to the Caribbean sea."
+    }
+  },
+  {
+    "id": "r0039",
+    "title": "Pork Chops and Padrón Chiles en Escabèche",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/pork-chops-and-padron-chiles-en-escabeche",
+      "author": "Epicurious",
+      "retrieved": "2026-10-06"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "2 1–1 1/2\" bone-in pork chops (about 1 lb. total)",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "bone-in pork chop"
+      },
+      {
+        "raw": "6 tsp. kosher salt, divided",
+        "quantity": 6,
+        "unit": "teaspoon",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "1 tsp. coriander seeds",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "coriander seeds"
+      },
+      {
+        "raw": "2 cups small Padrón chiles or shishito peppers, stems trimmed of dry ends but not completely cut off",
+        "quantity": 2,
+        "unit": "cup",
+        "item": "padrón chile"
+      },
+      {
+        "raw": "1 small red onion, halved through root end, sliced 1/4\" thick",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "red onion"
+      },
+      {
+        "raw": "2 small garlic cloves, thinly sliced",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "garlic"
+      },
+      {
+        "raw": "8 oz. small carrots (about 6), tops trimmed, scrubbed, sliced 1/4\" thick on a diagonal, or 8 oz. large carrots (about 2), tops trimmed, peeled, halved, sliced 1/4\" thick on a diagonal",
+        "quantity": 8,
+        "unit": "ounce",
+        "item": "carrot"
+      },
+      {
+        "raw": "3 Tbsp. red wine vinegar",
+        "quantity": 3,
+        "unit": "tablespoon",
+        "item": "red wine vinegar"
+      },
+      {
+        "raw": "1 Tbsp. sherry vinegar or red wine vinegar",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "sherry vinegar"
+      },
+      {
+        "raw": "1 Tbsp. honey",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "honey"
+      },
+      {
+        "raw": "1 tsp. paprika",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "paprika"
+      },
+      {
+        "raw": "5 Tbsp. extra-virgin olive oil, divided",
+        "quantity": 5,
+        "unit": "tablespoon",
+        "item": "extra-virgin olive oil"
+      },
+      {
+        "raw": "3 Tbsp. coarsely chopped oregano",
+        "quantity": 3,
+        "unit": "tablespoon",
+        "item": "oregano"
+      }
+    ],
+    "steps": [
+      "Season each pork chop all over with 1 tsp. salt and let sit at least 1 hour or chill on a wire rack set inside a rimmed baking sheet, uncovered, up to 2 days.",
+      "Preheat oven to 425°. If pork chops have been chilling in the fridge, let sit at room temperature while you make the escabèche.",
+      "Finely grind coriander seeds in a spice mill or with a mortar and pestle; set aside. Heat a dry large skillet over high. Add chiles in a single layer and cook, turning with tongs or a large spoon, until evenly blistered on all sides and deeply browned in spots, 5–7 minutes. Transfer chiles to a small pot; reserve skillet. Add red onion, garlic, carrots, red wine vinegar, sherry vinegar, honey, paprika, reserved ground coriander, 4 Tbsp. oil, remaining 4 tsp. salt, and 2 Tbsp. water to pot. Set over low heat, cover, and bring liquid to a gentle simmer. Cook, stirring vegetables often to keep submerged, until just-cooked through and still al dente, about 10 minutes. Remove escabèche from heat and stir in oregano.",
+      "Heat remaining 1 Tbsp. oil in reserved skillet over high. Arrange pork chops in pan so bone ends are in the center (this part cooks slower and this will help with even browning) and press down on pork chops with tongs to ensure surface is making good contact with the pan. Cook until golden underneath, about 3 minutes. Turn pork chops over and press down on them again. Transfer to oven and roast until an instant-read thermometer inserted into the thickest part registers 130° for medium (you should still have a little pink flesh; temperature should rise to about 145° when the pork chops rest), 5–7 minutes. Transfer pork chops to a cutting board and let rest 10 minutes.",
+      "To serve, transfer pork chops to plates and spoon escabèche over.",
+      "Do ahead: Escabèche can be made 2 weeks ahead. Transfer to an airtight container and let cool. Cover and chill."
+    ],
+    "time": {
+      "prep_min": 83,
+      "cook_min": 27,
+      "total_min": 110
+    },
+    "servings": 2,
+    "source_tags": {
+      "cuisine": [
+        "Europe",
+        "Spain"
+      ]
+    },
+    "cultural relevance": {
+      "score": 0,
+      "reasoning": null
+    }
+  },
+  {
+    "id": "r0060",
+    "title": "Bibingka",
+    "source": {
+      "site": "kawaling pinoy",
+      "url": "https://www.kawalingpinoy.com/bibingka/",
+      "author": "Kawaling Pinoy",
+      "retrieved": "2026-10-31"
+    },
+    "description": "A classic Filipino rice cake topped with salted eggs, cheese, and grated coconut, and a popular Christmas treat.",
+    "ingredients": [
+      {
+        "raw": "2 cups rice flour",
+        "quantity": 2,
+        "unit": "cup",
+        "item": "rice flour"
+      },
+      {
+        "raw": "1/2 cup glutinous rice flour",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "glutinous rice flour"
+      },
+      {
+        "raw": "1 cup sugar",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "sugar"
+      },
+      {
+        "raw": "1 tablespoon baking powder",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "baking powder"
+      },
+      {
+        "raw": "1 teaspoon salt",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "salt"
+      },
+      {
+        "raw": "1 1/2 cups coconut milk",
+        "quantity": 1.5,
+        "unit": "cup",
+        "item": "coconut milk"
+      },
+      {
+        "raw": "1/2 cup water",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "water"
+      },
+      {
+        "raw": "3 eggs, beaten",
+        "quantity": 3,
+        "unit": "unit",
+        "item": "egg"
+      },
+      {
+        "raw": "1/4 cup melted butter",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "butter"
+      },
+      {
+        "raw": "2 salted eggs, sliced lengthwise",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "salted egg"
+      },
+      {
+        "raw": "2 ounces cream cheese, thinly sliced",
+        "quantity": 2,
+        "unit": "ounce",
+        "item": "cream cheese"
+      },
+      {
+        "raw": "softened margarine or butter (topping)",
+        "quantity": null,
+        "unit": null,
+        "item": "butter"
+      },
+      {
+        "raw": "sugar to taste (topping)",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "sugar"
+      },
+      {
+        "raw": "grated mature coconut (topping)",
+        "quantity": null,
+        "unit": null,
+        "item": "grated coconut"
+      },
+      {
+        "raw": "banana leaves",
+        "quantity": null,
+        "unit": null,
+        "item": "banana leaves"
+      }
+    ],
+    "steps": [
+      "Whisk the rice flour, glutinous rice flour, sugar, baking powder, and salt together.",
+      "Stir in the coconut milk, water, melted butter, and eggs until smooth.",
+      "Cover and refrigerate the batter overnight.",
+      "Rinse and trim the banana leaves, cut them to line the molds, and quickly pass them over a flame to soften.",
+      "Fill the lined molds about 3/4 full, then top with salted egg and cream cheese slices.",
+      "Bake on the lower rack at 375°F for about 20 to 25 minutes, until a toothpick comes out clean.",
+      "Move to the top rack and bake 3 to 5 minutes more, until lightly golden.",
+      "Spread with butter, sprinkle with sugar, top with grated coconut, and serve hot."
+    ],
+    "time": {
+      "prep_min": 495,
+      "cook_min": 30,
+      "total_min": 525
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "Asia",
+        "Philippines"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Bibingka is an iconic symbol of Filipino holiday culture, famously eaten during the Christmas season as a post-mass breakfast or snack."
+    }
+  },
+  {
+    "id": "r0067",
+    "title": "Budae Jjigae (Army Stew)",
+    "source": {
+      "site": "korean bapsang",
+      "url": "https://www.koreanbapsang.com/budae-jjigae-army-stew/",
+      "author": "Hyosun",
+      "retrieved": "2026-10-31"
+    },
+    "description": "A communal Korean stew built on kimchi and processed meats, easily adjusted with broth, seasonings, and optional instant noodles.",
+    "ingredients": [
+      {
+        "raw": "2 cups baechu (napa cabbage) kimchi",
+        "quantity": 2,
+        "unit": "cup",
+        "item": "napa cabbage kimchi"
+      },
+      {
+        "raw": "2 hot dogs or sausages",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "hot dog"
+      },
+      {
+        "raw": "3 strips bacon or about 3 oz fatty pork",
+        "quantity": 3,
+        "unit": "slice",
+        "item": "bacon"
+      },
+      {
+        "raw": "1/3 can Spam (about 4 oz)",
+        "quantity": 0.33,
+        "unit": "can",
+        "item": "spam"
+      },
+      {
+        "raw": "4 oz tofu, sliced about 1/2 inch thick",
+        "quantity": 4,
+        "unit": "ounce",
+        "item": "tofu"
+      },
+      {
+        "raw": "1/2 medium onion, thinly sliced",
+        "quantity": 0.5,
+        "unit": "unit",
+        "item": "onion"
+      },
+      {
+        "raw": "3 to 4 mushroom caps, sliced",
+        "quantity": 3,
+        "unit": "unit",
+        "item": "mushrooms"
+      },
+      {
+        "raw": "2 scallions, cut into 2-inch lengths",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "scallion"
+      },
+      {
+        "raw": "1/4 red bell pepper, sliced (optional)",
+        "quantity": 0.25,
+        "unit": "unit",
+        "item": "red bell pepper"
+      },
+      {
+        "raw": "4 cups anchovy broth (or beef or chicken stock, or water), more as needed",
+        "quantity": 4,
+        "unit": "cup",
+        "item": "anchovy broth"
+      },
+      {
+        "raw": "1 tablespoon gochugaru (Korean red chili pepper flakes) (seasoning)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "gochugaru"
+      },
+      {
+        "raw": "1 teaspoon gochujang (Korean red chili pepper paste) (seasoning)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "gochujang"
+      },
+      {
+        "raw": "1 tablespoon soup soy sauce or salt to taste (seasoning)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "soup soy sauce"
+      },
+      {
+        "raw": "1 tablespoon minced garlic (seasoning)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "garlic"
+      },
+      {
+        "raw": "1 to 2 tablespoons broth or water (seasoning)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "water"
+      },
+      {
+        "raw": "black pepper to taste (seasoning)",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "black pepper"
+      },
+      {
+        "raw": "1 package instant ramyeon noodles (optional)",
+        "quantity": 1,
+        "unit": "package",
+        "item": "instant ramyeon noodles"
+      }
+    ],
+    "steps": [
+      "Cut the ingredients into bite-sized pieces and arrange them in a medium shallow pot. Mix the seasonings in a small bowl.",
+      "Add the broth and stir in the seasoning mixture.",
+      "Cook over medium-high heat until the bacon is cooked through and the kimchi has softened. Add the pre-boiled noodles and extra broth or water as needed."
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 15,
+      "total_min": 30
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Asia",
+        "Korea"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "The dish represents resourcefulness and the ability to adapt during a tumultuous, impoverished chapter of South Korea's mid-century history."
+    }
+  },
+  {
+    "id": "r0074",
+    "title": "One-Pot Spicy Halal Cart Chicken over Rice",
+    "source": {
+      "site": "cheffinwithzach",
+      "url": "https://www.cheffinwithzach.com/recipes/one-pot-spicy-halal-cart-chicken-over-rice",
+      "author": "cheffinwithzach",
+      "retrieved": "2026-10-31"
+    },
+    "description": "The quintessential chicken & rice.",
+    "ingredients": [
+      {
+        "raw": "Cumin (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "cumin"
+      },
+      {
+        "raw": "Coriander (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "coriander"
+      },
+      {
+        "raw": "Smoked paprika (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "smoked paprika"
+      },
+      {
+        "raw": "Curry powder (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "curry powder"
+      },
+      {
+        "raw": "Cayenne powder (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "cayenne powder"
+      },
+      {
+        "raw": "Dried oregano (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "dried oregano"
+      },
+      {
+        "raw": "Dried parsley (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "dried parsley"
+      },
+      {
+        "raw": "Black pepper (1 tsp) (spice blend)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "black pepper"
+      },
+      {
+        "raw": "Boneless skinless chicken thighs (2 lb)",
+        "quantity": 2,
+        "unit": "pound",
+        "item": "boneless skinless chicken thigh"
+      },
+      {
+        "raw": "Kosher salt, to taste",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "Olive oil (2 Tbsp)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "olive oil"
+      },
+      {
+        "raw": "Lemon juice (1 Tbsp)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "lemon juice"
+      },
+      {
+        "raw": "Basmati rice (1 1/2 cups, washed and drained)",
+        "quantity": 1.5,
+        "unit": "cup",
+        "item": "basmati rice"
+      },
+      {
+        "raw": "Tomato paste (2 Tbsp)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "tomato paste"
+      },
+      {
+        "raw": "Smoked paprika (1 tsp)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "smoked paprika"
+      },
+      {
+        "raw": "Chicken bouillon (2 cubes)",
+        "quantity": 2,
+        "unit": "cube",
+        "item": "chicken bouillon"
+      },
+      {
+        "raw": "Water (2 1/4 cups)",
+        "quantity": 2.25,
+        "unit": "cup",
+        "item": "water"
+      },
+      {
+        "raw": "Neutral oil",
+        "quantity": null,
+        "unit": null,
+        "item": "neutral oil"
+      },
+      {
+        "raw": "Mayo (1/2 cup) (white sauce)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "mayonnaise"
+      },
+      {
+        "raw": "Fresh dill (1 Tbsp, finely chopped) (white sauce)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "dill"
+      },
+      {
+        "raw": "Fresh parsley (1 Tbsp, finely chopped) (white sauce)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "parsley"
+      },
+      {
+        "raw": "Garlic (1 clove, grated) (white sauce)",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "garlic"
+      },
+      {
+        "raw": "Lemon zest (1/2 lemon) (white sauce)",
+        "quantity": 0.5,
+        "unit": "unit",
+        "item": "lemon zest"
+      },
+      {
+        "raw": "Lemon juice (1/2 lemon) (white sauce)",
+        "quantity": 0.5,
+        "unit": "unit",
+        "item": "lemon juice"
+      },
+      {
+        "raw": "Water (2–3 Tbsp), to thin (white sauce)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "water"
+      },
+      {
+        "raw": "Salt, to taste (white sauce)",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "salt"
+      },
+      {
+        "raw": "Black pepper, to taste (white sauce)",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "black pepper"
+      },
+      {
+        "raw": "Roma tomatoes (2–3, diced) (for serving)",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "roma tomato"
+      },
+      {
+        "raw": "Iceberg lettuce (1/4 head, shredded) (for serving)",
+        "quantity": 0.25,
+        "unit": "head",
+        "item": "iceberg lettuce"
+      },
+      {
+        "raw": "Red onion (1/4, thinly sliced) (for serving)",
+        "quantity": 0.25,
+        "unit": "unit",
+        "item": "red onion"
+      },
+      {
+        "raw": "Hot sauce of choice (for serving)",
+        "quantity": null,
+        "unit": null,
+        "item": "hot sauce"
+      }
+    ],
+    "steps": [
+      "Combine all spice blend ingredients in a small bowl and mix well. Set aside.",
+      "Coat the chicken thighs (2 lb) in olive oil (2 Tbsp), lemon juice (1 Tbsp), and all of the spice blend, reserving 1 tablespoon for the rice. For deeper flavor, refrigerate for 30 minutes or longer (overnight is even better), but if you're short on time, proceed straight to searing.",
+      "Heat a generous drizzle of neutral oil in a large heavy-bottomed pot over high heat. Sear the chicken thighs until deeply caramelized, about 4–5 minutes per side, cooking them about 70% of the way through. Remove and set aside.",
+      "Turn the heat down to medium. Add the tomato paste (2 Tbsp) to the same pot and fry, stirring constantly, for 2–3 minutes until it darkens slightly. Add the reserved spice blend (1 Tbsp) and the extra smoked paprika (1 tsp) and cook for another minute until fragrant. Add the bouillon cubes (2 cubes) and stir to combine. Note: the bouillon cubes will season the rice, no additional salt needed.",
+      "Add the washed and drained rice (1 1/2 cups) to the pot and stir to coat in the tomato-spice mixture. Add water (2 1/4 cups). Once the water level becomes even with the rice, nestle the chicken thighs back in, cover, and reduce to the lowest heat. Cook for 20 minutes, then remove from heat and let steam covered for another 10 minutes.",
+      "While the rice and chicken cook, make the white sauce. Whisk together mayo (1/2 cup), dill (1 Tbsp), parsley (1 Tbsp), grated garlic (1 clove), lemon zest (1/2 lemon) and juice (1/2 lemon). Add water (2–3 Tbsp) a tablespoon at a time until pourable but still creamy. Season with salt and pepper. Refrigerate until ready to serve.",
+      "When the rice and chicken are ready, remove the chicken and chop into small pieces. Fluff the rice with a fork.",
+      "To serve: a bed of rice, chicken on top, shredded lettuce (1/4 head), diced tomato (2–3), and sliced red onion (1/4) on the side. Drizzle generously with white sauce and hot sauce."
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 40,
+      "total_min": 55
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 3,
+      "reasoning": "Halal cart chicken over rice is a New York institution."
+    }
+  },
+  {
+    "id": "r0096",
+    "title": "Seaweed Sesame Pasta",
+    "source": {
+      "site": "instagram",
+      "url": "https://www.instagram.com/p/Defo6vsxzcg/",
+      "author": null,
+      "retrieved": "2026-10-31"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 lb of spaghetti",
+        "quantity": 1,
+        "unit": "pound",
+        "item": "spaghetti"
+      },
+      {
+        "raw": "12-16 oz of scallop or shrimp",
+        "quantity": 12,
+        "unit": "ounce",
+        "item": "scallop"
+      },
+      {
+        "raw": "1/4 cup of soy sauce (to add to pasta water)",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "soy sauce"
+      },
+      {
+        "raw": "3 tbsp of chili oil to cook seafood in (optional)",
+        "quantity": 3,
+        "unit": "tablespoon",
+        "item": "chili oil"
+      },
+      {
+        "raw": "0.6 oz of roasted and seasoned seaweed (I used 1 pack of Kirkland's!) (seaweed base)",
+        "quantity": 0.6,
+        "unit": "ounce",
+        "item": "roasted seasoned seaweed"
+      },
+      {
+        "raw": "5 tbsp of roasted sesame seeds (seaweed base)",
+        "quantity": 5,
+        "unit": "tablespoon",
+        "item": "roasted sesame seed"
+      },
+      {
+        "raw": "4 tbsp of soy sauce (seaweed base)",
+        "quantity": 4,
+        "unit": "tablespoon",
+        "item": "soy sauce"
+      },
+      {
+        "raw": "6 tbsp of sesame oil (seaweed base)",
+        "quantity": 6,
+        "unit": "tablespoon",
+        "item": "sesame oil"
+      },
+      {
+        "raw": "1 tbsp of minced garlic (seaweed base)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "minced garlic"
+      },
+      {
+        "raw": "2 egg yolk (seaweed base)",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "egg yolk"
+      },
+      {
+        "raw": "2 cups of reserved pasta water (seaweed base)",
+        "quantity": 2,
+        "unit": "cup",
+        "item": "pasta water"
+      },
+      {
+        "raw": "Optional - Parmesan cheese, salt flakes to garnish",
+        "quantity": null,
+        "unit": null,
+        "item": "parmesan cheese"
+      },
+      {
+        "raw": "Optional - Parmesan cheese, salt flakes to garnish",
+        "quantity": null,
+        "unit": null,
+        "item": "flaky salt"
+      },
+      {
+        "raw": "1 tbsp of neutral oil (from the steps)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "neutral oil"
+      },
+      {
+        "raw": "a pinch of salt and pepper (from the steps)",
+        "quantity": 1,
+        "unit": "pinch",
+        "item": "salt"
+      },
+      {
+        "raw": "a pinch of salt and pepper (from the steps)",
+        "quantity": 1,
+        "unit": "pinch",
+        "item": "black pepper"
+      }
+    ],
+    "steps": [
+      "Make the seaweed base by adding the seaweed (make sure to use roasted and seasoned!) and sesame seeds to a processor or blender and blitz until finely ground.",
+      "Transfer the mixture to a large bowl and add the soy sauce, sesame oil, minced garlic, and egg yolk, and combine everything well. Set it aside.",
+      "Cook your pasta according to the package instructions, and instead of adding salt to the water you boil the pasta in, add 1/4 cup of soy sauce.",
+      "Heat a large pan over medium heat and add 1 tbsp of neutral oil. Add your seafood of choice, a pinch of salt and pepper, and 3 tbsp of chili oil (you can skip the chili oil if you don't want it spicy; I just drizzled chili oil on the adults' pasta). Cook for 1-2 minutes on each side until your shrimp / scallops are cooked through and lightly golden. Remove from heat.",
+      "When the pasta is cooked to your desired doneness, transfer it straight into the large bowl with the seaweed mixture. Make sure to reserve 2 cups of pasta water. Use tongs to toss the pasta immediately. Add 1-2 cups of pasta water to loosen the sauce and make the pasta creamier.",
+      "Plate your pasta and top with your seafood. You can also garnish with Parmesan cheese and extra chili oil. Serve and enjoy!"
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 15,
+      "total_min": 25
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": []
+    },
+    "cultural relevance": {
+      "score": 0,
+      "reasoning": null
+    }
+  },
+  {
+    "id": "r0097",
+    "title": "Crispiest Baby Artichokes",
+    "source": {
+      "site": "instagram",
+      "url": "https://www.instagram.com/p/DedKHu5gldT/",
+      "author": null,
+      "retrieved": "2026-10-31"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "around 20 fresh baby artichokes (artichokes, from the steps)",
+        "quantity": 20,
+        "unit": "unit",
+        "item": "baby artichoke"
+      },
+      {
+        "raw": "one full lemon (artichokes, from the steps)",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "lemon"
+      },
+      {
+        "raw": "olive oil (artichokes, from the steps)",
+        "quantity": null,
+        "unit": null,
+        "item": "olive oil"
+      },
+      {
+        "raw": "salt (artichokes, from the steps)",
+        "quantity": null,
+        "unit": null,
+        "item": "salt"
+      },
+      {
+        "raw": "2 heaping tsp of Calabrian chile paste (Calabrian chile/tahini dressing)",
+        "quantity": 2,
+        "unit": "teaspoon",
+        "item": "calabrian chile paste"
+      },
+      {
+        "raw": "3/4 cup raw tahini (Calabrian chile/tahini dressing)",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "tahini"
+      },
+      {
+        "raw": "3 anchovy filets (Calabrian chile/tahini dressing)",
+        "quantity": 3,
+        "unit": "fillet",
+        "item": "anchovy"
+      },
+      {
+        "raw": "1/2 cup lemon juice (Calabrian chile/tahini dressing)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "lemon juice"
+      },
+      {
+        "raw": "3 ice cubes (Calabrian chile/tahini dressing)",
+        "quantity": 3,
+        "unit": "unit",
+        "item": "ice cube"
+      },
+      {
+        "raw": "1 1/2 tbsp shallots, minced (Calabrian chile/tahini dressing)",
+        "quantity": 1.5,
+        "unit": "tablespoon",
+        "item": "shallot"
+      },
+      {
+        "raw": "1/2 tbsp garlic, minced (Calabrian chile/tahini dressing)",
+        "quantity": 0.5,
+        "unit": "tablespoon",
+        "item": "garlic"
+      },
+      {
+        "raw": "3/4 tbsp honey (Calabrian chile/tahini dressing)",
+        "quantity": 0.75,
+        "unit": "tablespoon",
+        "item": "honey"
+      },
+      {
+        "raw": "1 tbsp whole grain mustard (Calabrian chile/tahini dressing)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "whole grain mustard"
+      },
+      {
+        "raw": "1/3 cup cold water (Calabrian chile/tahini dressing)",
+        "quantity": 0.33,
+        "unit": "cup",
+        "item": "water"
+      },
+      {
+        "raw": "1 tsp salt (Calabrian chile/tahini dressing)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "salt"
+      },
+      {
+        "raw": "3/4 tsp black pepper (Calabrian chile/tahini dressing)",
+        "quantity": 0.75,
+        "unit": "teaspoon",
+        "item": "black pepper"
+      },
+      {
+        "raw": "3/4 cup olive oil (Calabrian chile/tahini dressing)",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "olive oil"
+      },
+      {
+        "raw": "Roasted pumpkin seeds (garnish)",
+        "quantity": null,
+        "unit": null,
+        "item": "roasted pumpkin seed"
+      },
+      {
+        "raw": "Chopped chives (garnish)",
+        "quantity": null,
+        "unit": null,
+        "item": "chives"
+      },
+      {
+        "raw": "Side of wedge lemon (garnish)",
+        "quantity": null,
+        "unit": null,
+        "item": "lemon"
+      }
+    ],
+    "steps": [
+      "Preheat your oven to 400°F on convection roast.",
+      "Peel and clean the artichokes (around 20 fresh baby artichokes; you can also use canned ones, just make sure to dry them as much as possible before seasoning). Slice each of them in half.",
+      "Bring a pot of water to a boil. Squeeze one full lemon and add it to the water. Add the prepped artichokes and simmer them for exactly 7 minutes. Drain them through a colander and discard the lemon.",
+      "Arrange them face down on a baking sheet and season the artichokes generously with olive oil and salt.",
+      "Roast the artichokes for 15-20 minutes depending on color and doneness. You're looking for a golden brown color.",
+      "For the dressing: add all of the ingredients except the oil to the food processor, then slowly add the oil while the machine is running. If the sauce is too thick, add a bit of cold ice water, and adjust the seasoning.",
+      "Garnish with roasted pumpkin seeds, chopped chives and a lemon wedge on the side. Enjoy!"
+    ],
+    "time": {
+      "prep_min": 20,
+      "cook_min": 22,
+      "total_min": 42
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "Europe",
+        "Italy"
+      ]
+    },
+    "cultural relevance": {
+      "score": 1,
+      "reasoning": "Baby artichockes are celebrated as a spring element that frequently can be seen in Passover."
+    }
+  },
+  {
+    "id": "r0129",
+    "title": "Roasted Beef with Horseradish Cream Sandwich",
+    "source": {
+      "site": "instagram",
+      "url": "https://www.instagram.com/p/DcV1k49xaO_/",
+      "author": null,
+      "retrieved": "2026-11-01"
+    },
+    "description": "This sandwich is my favorite sandwich in the entire world.",
+    "ingredients": [
+      {
+        "raw": "2 Sirloin Filets",
+        "quantity": 2,
+        "unit": "unit",
+        "item": "sirloin filet"
+      },
+      {
+        "raw": "Whole Ciabatta Baguette (from @traderjoes)",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "ciabatta baguette"
+      },
+      {
+        "raw": "Spring Mix",
+        "quantity": null,
+        "unit": null,
+        "item": "spring mix"
+      },
+      {
+        "raw": "Chives",
+        "quantity": null,
+        "unit": null,
+        "item": "chives"
+      },
+      {
+        "raw": "Banana Peppers",
+        "quantity": null,
+        "unit": null,
+        "item": "banana pepper"
+      },
+      {
+        "raw": "Heirloom tomato",
+        "quantity": null,
+        "unit": null,
+        "item": "heirloom tomato"
+      },
+      {
+        "raw": "1/2c Sour Cream (I love @fage) (horseradish cream aioli)",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "sour cream"
+      },
+      {
+        "raw": "2 Tbs Horseradish (horseradish cream aioli)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "horseradish"
+      },
+      {
+        "raw": "2 Tbs Mayo of choice (I love @primalkitchenfoods) (horseradish cream aioli)",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "mayonnaise"
+      },
+      {
+        "raw": "1 tsp Apple cider vinegar (horseradish cream aioli)",
+        "quantity": 1,
+        "unit": "teaspoon",
+        "item": "apple cider vinegar"
+      },
+      {
+        "raw": "1/4 tsp salt (horseradish cream aioli)",
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "item": "salt"
+      },
+      {
+        "raw": "1/4 tsp pepper (horseradish cream aioli)",
+        "quantity": 0.25,
+        "unit": "teaspoon",
+        "item": "black pepper"
+      },
+      {
+        "raw": "1 Tbs Chives (horseradish cream aioli)",
+        "quantity": 1,
+        "unit": "tablespoon",
+        "item": "chives"
+      },
+      {
+        "raw": "Olive Oil",
+        "quantity": null,
+        "unit": null,
+        "item": "olive oil"
+      },
+      {
+        "raw": "Salt & Pepper",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "salt"
+      },
+      {
+        "raw": "Salt & Pepper",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "black pepper"
+      }
+    ],
+    "steps": [
+      "Heat the oven to 400°F. Completely pat dry your sirloin steaks and season generously with salt & pepper.",
+      "Get a stainless steel pan or cast iron skillet hot (medium-high heat), then add olive oil once it's already hot (this will prevent sticking). Sear on all sides and slide the pan directly into your hot oven. Cook for an additional 10 minutes.",
+      "Take the steak out and immediately rest it on a cutting board. Do not cut into it for at least 15 minutes.",
+      "Prepare your cream sauce: mix all the aioli ingredients together and enjoy.",
+      "Assemble: slice the steak and add everything inside the ciabatta: the steak, spring mix, chives, banana peppers, heirloom tomato and horseradish cream aioli."
+    ],
+    "time": {
+      "prep_min": 25,
+      "cook_min": 15,
+      "total_min": 40
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": []
+    },
+    "cultural relevance": {
+      "score": 0,
+      "reasoning": null
+    }
+  },
+  {
+    "id": "r0132",
+    "title": "Roasted Cherry Tomato Goat Cheese Toasty",
+    "source": {
+      "site": "instagram",
+      "url": "https://www.instagram.com/p/Dcd7pTBxPtI/",
+      "author": null,
+      "retrieved": "2026-11-01"
+    },
+    "description": "Because everyone needs a pop of freshness on their avocado toast. This recipe is so amazing and so delicious, I hope you give it a try.",
+    "ingredients": [
+      {
+        "raw": "Cherry Tomatoes",
+        "quantity": null,
+        "unit": null,
+        "item": "cherry tomato"
+      },
+      {
+        "raw": "Goat Cheese or Feta Cheese",
+        "quantity": null,
+        "unit": null,
+        "item": "goat cheese"
+      },
+      {
+        "raw": "Jammy egg (boil for 7m then directly into an ice bath)",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "egg"
+      },
+      {
+        "raw": "Sourdough Toast",
+        "quantity": 1,
+        "unit": "slice",
+        "item": "sourdough bread"
+      },
+      {
+        "raw": "Butter",
+        "quantity": null,
+        "unit": null,
+        "item": "butter"
+      },
+      {
+        "raw": "Lemon",
+        "quantity": null,
+        "unit": null,
+        "item": "lemon"
+      },
+      {
+        "raw": "Salt",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "salt"
+      },
+      {
+        "raw": "Parsley",
+        "quantity": null,
+        "unit": null,
+        "item": "parsley"
+      },
+      {
+        "raw": "Italian Seasonings",
+        "quantity": null,
+        "unit": null,
+        "item": "italian seasoning"
+      },
+      {
+        "raw": "Garlic Powder",
+        "quantity": null,
+        "unit": null,
+        "item": "garlic powder"
+      },
+      {
+        "raw": "Olive Oil",
+        "quantity": null,
+        "unit": null,
+        "item": "olive oil"
+      },
+      {
+        "raw": "mashed avocado (from the steps)",
+        "quantity": null,
+        "unit": null,
+        "item": "avocado"
+      }
+    ],
+    "steps": [
+      "In a square baking dish, add the cherry tomatoes, a sprinkle of salt, Italian seasonings and garlic powder. Toss in a little olive oil and bake in the oven at 375°F for 25-35 minutes.",
+      "Take it out of the oven and use a spatula to toss the tomatoes around. Let cool for an additional 10 minutes.",
+      "Boil the egg for 7 minutes, then put it directly into an ice bath.",
+      "Pan-toast a slice of sourdough with butter. Add mashed avocado, the jammy egg, the roasted tomatoes, goat cheese and parsley. Enjoy!"
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 28,
+      "total_min": 43
+    },
+    "servings": 1,
+    "source_tags": {
+      "cuisine": []
+    },
+    "cultural relevance": {
+      "score": 0,
+      "reasoning": null
+    }
+  },
+  {
+    "id": "r0136",
+    "title": "Creamy Roasted Butternut Squash Soup",
+    "source": {
+      "site": "instagram",
+      "url": "https://www.instagram.com/p/Dc4U3k3BZLd/",
+      "author": null,
+      "retrieved": "2026-11-01"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 large butternut squash",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "butternut squash"
+      },
+      {
+        "raw": "1 onion",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "onion"
+      },
+      {
+        "raw": "1 bell pepper",
+        "quantity": 1,
+        "unit": "unit",
+        "item": "bell pepper"
+      },
+      {
+        "raw": "cup cherry tomatoes",
+        "quantity": null,
+        "unit": "cup",
+        "item": "cherry tomato"
+      },
+      {
+        "raw": "4 large carrots",
+        "quantity": 4,
+        "unit": "unit",
+        "item": "carrot"
+      },
+      {
+        "raw": "Olive oil",
+        "quantity": null,
+        "unit": null,
+        "item": "olive oil"
+      },
+      {
+        "raw": "Salt + pepper",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "salt"
+      },
+      {
+        "raw": "Salt + pepper",
+        "quantity": null,
+        "unit": "to taste",
+        "item": "black pepper"
+      },
+      {
+        "raw": "1-2 cups chicken bone broth (I used @kettleandfire)",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "chicken bone broth"
+      },
+      {
+        "raw": "1/2 cup heavy cream",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "heavy cream"
+      },
+      {
+        "raw": "2 tbsp butter",
+        "quantity": 2,
+        "unit": "tablespoon",
+        "item": "butter"
+      },
+      {
+        "raw": "Pinch of nutmeg",
+        "quantity": 1,
+        "unit": "pinch",
+        "item": "nutmeg"
+      },
+      {
+        "raw": "Optional: fresh thyme or sage",
+        "quantity": null,
+        "unit": null,
+        "item": "thyme"
+      },
+      {
+        "raw": "Optional: fresh thyme or sage",
+        "quantity": null,
+        "unit": null,
+        "item": "sage"
+      }
+    ],
+    "steps": [
+      "Toss the veggies with olive oil, salt and pepper.",
+      "Roast at 425°F for 45 minutes until soft and caramelized.",
+      "Add everything to a blender with the broth.",
+      "Blend until completely smooth.",
+      "Pour into a pot and stir in the cream, butter and a pinch of nutmeg.",
+      "Simmer for 5-10 minutes. Add more broth if you want it thinner.",
+      "Finish with a little cream, cracked pepper and herbs."
+    ],
+    "time": {
+      "prep_min": 15,
+      "cook_min": 50,
+      "total_min": 65
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 1,
+      "reasoning": "Modern autumn comfort food."
+    }
+  },
+  {
+    "id": "r0157",
+    "title": "Buckwheat Porridge with Maple Cinnamon Caramelized Bananas",
+    "source": {
+      "site": "instagram",
+      "url": "https://www.instagram.com/p/DfSrkiLSpwU/",
+      "author": null,
+      "retrieved": "2026-11-03"
+    },
+    "description": "Save this recipe for cozy fall mornings. I also love making this with other stewed fruits, like apples and pears. Enjoy!!",
+    "ingredients": [
+      {
+        "raw": "1/4 cup buckwheat groats",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "buckwheat groats"
+      },
+      {
+        "raw": "3/4 cup water",
+        "quantity": 0.75,
+        "unit": "cup",
+        "item": "water"
+      },
+      {
+        "raw": "pinch of sea salt",
+        "quantity": 1,
+        "unit": "pinch",
+        "item": "sea salt"
+      },
+      {
+        "raw": "1 banana, sliced",
+        "quantity": 1,
+        "unit": null,
+        "item": "banana"
+      },
+      {
+        "raw": "1 tsp coconut oil",
+        "quantity": 1,
+        "unit": "tsp",
+        "item": "coconut oil"
+      },
+      {
+        "raw": "cinnamon + pumpkin spice",
+        "quantity": null,
+        "unit": null,
+        "item": "cinnamon"
+      },
+      {
+        "raw": "cinnamon + pumpkin spice",
+        "quantity": null,
+        "unit": null,
+        "item": "pumpkin spice"
+      },
+      {
+        "raw": "1 tbsp maple syrup",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "maple syrup"
+      },
+      {
+        "raw": "coconut cashew milk or milk of choice",
+        "quantity": null,
+        "unit": null,
+        "item": "coconut cashew milk"
+      },
+      {
+        "raw": "flaky sea salt",
+        "quantity": null,
+        "unit": null,
+        "item": "flaky sea salt"
+      }
+    ],
+    "steps": [
+      "Bring buckwheat, water, and a pinch of salt to a boil, then reduce heat and simmer for 10 minutes.",
+      "Pan-fry banana in coconut oil with cinnamon, pumpkin spice, and maple syrup until soft and caramelized.",
+      "Stir milk of choice into the cooked buckwheat until creamy.",
+      "Put in a bowl and top with caramelized banana, extra cinnamon, a pinch of flaky sea salt & any other toppings you like!"
+    ],
+    "time": {
+      "prep_min": 5,
+      "cook_min": 12,
+      "total_min": 17
+    },
+    "servings": 1,
+    "source_tags": {
+      "cuisine": [
+        "Europe",
+        "Italy"
+      ]
+    },
+    "cultural relevance": {
+      "score": 3,
+      "reasoning": "Porridge has existed since the Paleolithic in Italy. Presented in multiple ways, this is a staple around the globe."
+    }
+  },
+  {
+    "id": "r0172",
+    "title": "Beer-Steamed Clams",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/beer-steamed-clams-51234870",
+      "author": "Bon Appétit",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 12-ounce bottle pale lager",
+        "quantity": 1,
+        "unit": "bottle",
+        "item": "pale lager"
+      },
+      {
+        "raw": "5 pounds hard-shell clams (such as littlenecks), scrubbed",
+        "quantity": 5,
+        "unit": "lb",
+        "item": "hard-shell clams"
+      },
+      {
+        "raw": "Lemon halves (for serving)",
+        "quantity": null,
+        "unit": null,
+        "item": "lemon halves"
+      }
+    ],
+    "steps": [
+      "Bring beer to a boil in a large heavy pot. Add clams. Cover pot, reduce heat to medium, and steam clams until they open, 6–8 minutes. Using a slotted spoon, transfer clams to a large bowl or platter (discard any that do not open). Serve with lemon halves."
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 10,
+      "total_min": 20
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Europe",
+        "England"
+      ]
+    },
+    "cultural relevance": {
+      "score": 2,
+      "reasoning": "Early English colonist made this a stape of New England culinary identity."
+    }
+  },
+  {
+    "id": "r0178",
+    "title": "Grapefruit Chermoula",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/grapefruit-chermoula-51246610",
+      "author": "Bon Appétit",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 grapefruit",
+        "quantity": 1,
+        "unit": null,
+        "item": "grapefruit"
+      },
+      {
+        "raw": "1 large shallot, finely chopped",
+        "quantity": 1,
+        "unit": null,
+        "item": "shallot"
+      },
+      {
+        "raw": "2 garlic cloves, finely grated",
+        "quantity": 2,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "raw": "3 tablespoons fresh lemon juice",
+        "quantity": 3,
+        "unit": "tbsp",
+        "item": "lemon juice"
+      },
+      {
+        "raw": "1 teaspoon kosher salt, plus more",
+        "quantity": 1,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "1/2 small preserved lemon, flesh discarded, peel finely chopped",
+        "quantity": 0.5,
+        "unit": null,
+        "item": "preserved lemon"
+      },
+      {
+        "raw": "1/2 cup finely chopped fresh cilantro",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "cilantro"
+      },
+      {
+        "raw": "2 tablespoons olive oil",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "olive oil"
+      },
+      {
+        "raw": "2 teaspoons finely grated peeled ginger",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "ginger"
+      },
+      {
+        "raw": "2 teaspoons harissa paste",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "harissa paste"
+      },
+      {
+        "raw": "1 1/2 teaspoons ground cumin",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "item": "ground cumin"
+      },
+      {
+        "raw": "1 teaspoon honey",
+        "quantity": 1,
+        "unit": "tsp",
+        "item": "honey"
+      },
+      {
+        "raw": "1/2 teaspoon tomato paste",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "tomato paste"
+      },
+      {
+        "raw": "Freshly ground black pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "black pepper"
+      }
+    ],
+    "steps": [
+      "Using a sharp knife, cut all peel and white pith from grapefruit; discard. Working over a medium bowl, cut between membranes to release segments into bowl. Squeeze in juice from membranes as needed to make 2 tablespoons juice; discard membranes and reserve any extra juice for another use. Coarsely chop segments; return to bowl.",
+      "Combine shallot, garlic, lemon juice, and 1 teaspoon salt in a medium bowl; let stand 10 minutes (this will mellow shallot and garlic). Mix in grapefruit, preserved lemon peel, cilantro, oil, ginger, harissa, cumin, honey, and tomato paste; season with salt and pepper.",
+      "Do ahead: Chermoula can be made 5 days ahead. Cover and chill."
+    ],
+    "time": {
+      "prep_min": 20,
+      "cook_min": 0,
+      "total_min": 20
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "North African",
+        "African"
+      ]
+    },
+    "cultural relevance": {
+      "score": 4,
+      "reasoning": "Chermoula originated in Morocco. It is traditionally eaten in Eid al-Fitr."
+    }
+  },
+  {
+    "id": "r0197",
+    "title": "Tarragon-Roasted Halibut with Hazelnut Brown Butter",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/tarragon-roasted-halibut-with-hazelnut-brown-butter-51154980",
+      "author": "Bon Appétit",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1/2 cup blanched hazelnuts",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "blanched hazelnuts"
+      },
+      {
+        "raw": "1 large bunch fresh tarragon",
+        "quantity": 1,
+        "unit": "bunch",
+        "item": "fresh tarragon"
+      },
+      {
+        "raw": "1 3-3 1/2-pounds skinless halibut fillet (halved lengthwise if very wide)",
+        "quantity": 1,
+        "unit": null,
+        "item": "skinless halibut fillet"
+      },
+      {
+        "raw": "4 tablespoons olive oil, divided",
+        "quantity": 4,
+        "unit": "tbsp",
+        "item": "olive oil"
+      },
+      {
+        "raw": "Kosher salt, freshly ground pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "kosher salt"
+      },
+      {
+        "raw": "Kosher salt, freshly ground pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "black pepper"
+      },
+      {
+        "raw": "1/2 cup (1 stick) unsalted butter",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "unsalted butter"
+      },
+      {
+        "raw": "1/4 cup fresh lemon juice",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "lemon juice"
+      },
+      {
+        "raw": "Lemon halves",
+        "quantity": null,
+        "unit": null,
+        "item": "lemon halves"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 350°F. Spread hazelnuts in a single layer on a rimmed baking sheet and toast, stirring occasionally, until golden, 8-10 minutes. Coarsely chop; set aside.",
+      "Reduce oven temperature to 300°F. Scatter tarragon sprigs on a large rimmed baking sheet. Place halibut on top, drizzle with 2 tablespoons oil, and season with salt and pepper. Roast until halibut is just opaque in the center, 20-30 minutes, depending on thickness of fish.",
+      "Meanwhile, melt butter in a small saucepan over medium-high heat. Cook, stirring often, until butter foams, then browns (don't let it burn), about 5 minutes. Remove from heat; let brown butter cool slightly. Stir in lemon juice, hazelnuts, and remaining 2 tablespoons oil; season with salt and pepper.",
+      "Serve fish with hazelnut brown butter sauce and lemon halves."
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 28,
+      "total_min": 38
+    },
+    "servings": 6,
+    "source_tags": {
+      "cuisine": []
+    },
+    "cultural relevance": {
+      "score": 0,
+      "reasoning": null
+    }
+  },
+  {
+    "id": "r0223",
+    "title": "Our Favorite Stuffing With Cornbread and Sausage",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/cornbread-sausage-stuffing",
+      "author": "Epicurious",
+      "retrieved": "2026-11-12"
+    },
+    "description": "Special equipment: A 13x9x2\" or other 3-quart baking dish",
+    "ingredients": [
+      {
+        "raw": "1/2 cup (1 stick) unsalted butter, plus more for pan",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "unsalted butter"
+      },
+      {
+        "raw": "1/2 pound good-quality day-old crusty country-style or peasant bread, torn into 3/4\" pieces (about 5 cups)",
+        "quantity": 0.5,
+        "unit": "lb",
+        "item": "crusty country-style bread"
+      },
+      {
+        "raw": "1/2 pound day-old cornbread, broken into 3/4\" pieces (about 5 cups)",
+        "quantity": 0.5,
+        "unit": "lb",
+        "item": "day-old cornbread"
+      },
+      {
+        "raw": "1 pound breakfast sausage links, casings removed, or ground breakfast sausage mix, broken up into 1/2\" pieces",
+        "quantity": 1,
+        "unit": "lb",
+        "item": "breakfast sausage"
+      },
+      {
+        "raw": "2 1/2 cups chopped onions (about 1 medium plus 1 large onion)",
+        "quantity": 2.5,
+        "unit": "cup",
+        "item": "onions"
+      },
+      {
+        "raw": "3 medium celery stalks, sliced",
+        "quantity": 3,
+        "unit": "stalk",
+        "item": "celery"
+      },
+      {
+        "raw": "2 large eggs",
+        "quantity": 2,
+        "unit": null,
+        "item": "large eggs"
+      },
+      {
+        "raw": "2 1/2 cups low-sodium chicken broth",
+        "quantity": 2.5,
+        "unit": "cup",
+        "item": "low-sodium chicken broth"
+      },
+      {
+        "raw": "1/2 cup chopped parsley",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "parsley"
+      },
+      {
+        "raw": "2 tablespoons chopped sage",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "sage"
+      },
+      {
+        "raw": "1 tablespoon chopped thyme",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "thyme"
+      },
+      {
+        "raw": "2 teaspoons chopped rosemary",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "rosemary"
+      },
+      {
+        "raw": "2 teaspoons kosher salt",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "1 teaspoon freshly ground black pepper",
+        "quantity": 1,
+        "unit": "tsp",
+        "item": "black pepper"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 300°F. Butter baking dish; set aside. Arrange bread and cornbread in a single layer on a rimmed baking sheet. Bake, tossing occasionally, until completely dried out, 35–50 minutes. Let cool on baking sheet, then transfer to a very large bowl.",
+      "Meanwhile, heat a large skillet over medium-high. Break sausage into 1/2\" pieces and cook, stirring and breaking up into smaller (about 1/4\") pieces with a wooden spoon or spatula, until browned, 8–10 minutes. Transfer to bowl with bread but do not stir.",
+      "Heat remaining 1 stick butter in same skillet over medium-high. Cook onions and celery, stirring often and scraping browned bits off bottom of pan, until just beginning to brown, about 10 minutes. Add to bowl with bread mixture and let cool.",
+      "Whisk eggs, broth, parsley, sage, thyme, rosemary, salt, and pepper in a medium bowl. Add to bread mixture and fold gently until thoroughly combined.",
+      "Increase oven temperature to 350°F. Transfer mixture to prepared dish, cover with foil, and bake stuffing until an instant-read thermometer inserted into the center registers 160°F, 40–45 minutes. Uncover and continue to bake until set and top is browned and crisped, 45–50 minutes more.",
+      "DO AHEAD: Stuffing can be assembled, but not baked, 1 day ahead. Cover and chill. When ready to bake, bring to room temperature and bake according to recipe. Stuffing can be baked 1 day ahead. Let cool completely, then cover with foil and chill. Keep covered and bake in a 350°F oven until warmed through, 25–30 minutes. Uncover and bake until top is crisped, 7–10 minutes more.",
+      "Cooks' note: Omit the sausage and use vegetable broth instead of chicken to make this stuffing vegetarian-friendly."
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 130,
+      "total_min": 140
+    },
+    "servings": 8,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0232",
+    "title": "Skillet Cornbread",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/skillet-cornbread",
+      "author": "Gourmet",
+      "retrieved": "2026-11-12"
+    },
+    "description": "Special equipment: A well-seasoned 10-inch cast-iron skillet",
+    "ingredients": [
+      {
+        "raw": "1 1/2 cups white or yellow cornmeal (preferably stone-ground)",
+        "quantity": 1.5,
+        "unit": "cup",
+        "item": "cornmeal"
+      },
+      {
+        "raw": "1 Tbsp. sugar",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "sugar"
+      },
+      {
+        "raw": "3/4 tsp. baking soda",
+        "quantity": 0.75,
+        "unit": "tsp",
+        "item": "baking soda"
+      },
+      {
+        "raw": "1/2 tsp. Diamond Crystal or 1/4 tsp. Morton’s kosher salt",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "2 large eggs",
+        "quantity": 2,
+        "unit": null,
+        "item": "large eggs"
+      },
+      {
+        "raw": "1 3/4 cups well-shaken buttermilk",
+        "quantity": 1.75,
+        "unit": "cup",
+        "item": "buttermilk"
+      },
+      {
+        "raw": "1/4 cup (1/2 stick) unsalted butter",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "unsalted butter"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 425°F with rack in middle. Heat skillet in oven 10 minutes.",
+      "Stir together 1 1/2 cups white or yellow cornmeal (preferably stone-ground), 1 Tbsp. sugar, 3/4 tsp. baking soda, and 1/2 tsp. Diamond Crystal or 1/4 tsp. Morton’s kosher salt in a medium bowl. Whisk together 2 large eggs and 1 3/4 cups well-shaken buttermilk in a large bowl.",
+      "Remove hot skillet from oven (handle will be very hot). Add butter, swirling skillet to coat bottom and side (butter may brown). Whisk hot, melted butter into buttermilk mixture and return skillet to oven (don’t wipe it out!). Stir cornmeal mixture into wet ingredients just until evenly moistened (batter may be lumpy).",
+      "Scrape batter into hot skillet and bake until golden and a toothpick inserted into the center of the cornbread comes out clean or with only a few crumbs attached, 20 to 25 minutes. Turn out onto a wire rack and cool.",
+      "Cooks' note: If you don’t have a cast-iron skillet, use a 9-inch-square or 11x7-inch baking dish. To make cornbread muffins, grease muffin tin with butter or vegetable oil and fill muffin cups 3/4 of the way with cornbread batter. Bake at 425°F for 15–20 minutes."
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 20,
+      "total_min": 30
+    },
+    "servings": 8,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0240",
+    "title": "Our Favorite Pie Crust",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/best-pie-crust-recipe",
+      "author": "Epicurious",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "2 1/2 cups (313 g) all-purpose flour, plus more for surface",
+        "quantity": 313,
+        "unit": "g",
+        "item": "all-purpose flour"
+      },
+      {
+        "raw": "4 1/2 tsp. granulated sugar",
+        "quantity": 4.5,
+        "unit": "tsp",
+        "item": "granulated sugar"
+      },
+      {
+        "raw": "1 tsp. Diamond Crystal or 1/2 tsp. Morton kosher salt",
+        "quantity": 1,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "1 cup (2 sticks) unsalted butter, cut into small pieces, frozen for 15 minutes",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "unsalted butter"
+      },
+      {
+        "raw": "1 Tbsp. apple cider vinegar, chilled",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "apple cider vinegar"
+      },
+      {
+        "raw": "1/4 cup ice-cold water (from the steps)",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "ice water"
+      }
+    ],
+    "steps": [
+      "In a food processor, pulse 2 1/2 cups (313 g) all-purpose flour, 4 1/2 tsp. granulated sugar, and 1 tsp. Diamond Crystal or 1/2 tsp. Morton kosher salt. Add 1 cup (2 sticks) unsalted butter, cut into small pieces, frozen for 15 minutes, to dry ingredients and pulse until coarse, pea-sized crumbs appear, about 10 seconds. With the motor running, add 1 Tbsp. apple cider vinegar, chilled, and 1/4 cup ice-cold water and process until the dough just holds together, about 30 seconds. Squeeze a small amount of dough between your fingers and if it is very crumbly, add more ice water, 1 Tbsp. at a time (2 Tbsp. maximum). Do not overprocess.",
+      "Turn dough out onto a lightly floured surface and push together into a rough ball. Knead a few times to combine, then divide into two equal balls. Flatten each ball into a disk with smooth edges (no cracks), cover with plastic wrap, and refrigerate at least 1 hour or up to overnight.",
+      "Do ahead: Pie dough can be made 3 months ahead; keep wrapped and freeze. Thaw before using."
+    ],
+    "time": {
+      "prep_min": 85,
+      "cook_min": 0,
+      "total_min": 85
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 4,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0241",
+    "title": "Praline Topping",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/praline-topping",
+      "author": "Toni Tipton-Martin",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "3 tablespoons packed brown sugar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "item": "brown sugar"
+      },
+      {
+        "raw": "3 tablespoons granulated sugar",
+        "quantity": 3,
+        "unit": "tbsp",
+        "item": "granulated sugar"
+      },
+      {
+        "raw": "1/4 cup all-purpose flour",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "all-purpose flour"
+      },
+      {
+        "raw": "1 egg",
+        "quantity": 1,
+        "unit": null,
+        "item": "egg"
+      },
+      {
+        "raw": "1/4 teaspoon salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "salt"
+      },
+      {
+        "raw": "3 tablespoons butter, melted",
+        "quantity": 3,
+        "unit": "tbsp",
+        "item": "butter"
+      },
+      {
+        "raw": "1/3 cup chopped pecans",
+        "quantity": 0.33,
+        "unit": "cup",
+        "item": "pecans"
+      }
+    ],
+    "steps": [
+      "In a medium bowl, combine the brown sugar, granulated sugar, flour, egg, and salt until well mixed. Stir in the melted butter and mix well. Stir in the pecans."
+    ],
+    "time": {
+      "prep_min": 5,
+      "cook_min": 0,
+      "total_min": 5
+    },
+    "servings": null,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 5,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0245",
+    "title": "3-Ingredient Pumpkin Mousse",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/3-ingredient-pumpkin-mousse",
+      "author": "Epicurious",
+      "retrieved": "2026-11-12"
+    },
+    "description": "Special equipment: 1 (2-quart) dish or 8 (8-ounce) glasses or ramekins",
+    "ingredients": [
+      {
+        "raw": "1 (14-ounce) can sweetened condensed milk",
+        "quantity": 1,
+        "unit": "can",
+        "item": "sweetened condensed milk"
+      },
+      {
+        "raw": "1 (15-ounce) can pumpkin purée",
+        "quantity": 1,
+        "unit": "can",
+        "item": "pumpkin purée"
+      },
+      {
+        "raw": "1/4 teaspoon kosher salt",
+        "quantity": 0.25,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "3 cups heavy cream",
+        "quantity": 3,
+        "unit": "cup",
+        "item": "heavy cream"
+      }
+    ],
+    "steps": [
+      "Heat condensed milk in a medium saucepan over medium. Cook, stirring constantly with a rubber spatula, until slightly darker in color, 10–12 minutes. Stir in pumpkin and salt; continue to cook, stirring often, until mixture bubbles up like polenta, about 4 minutes more. Strain mixture through a fine-mesh sieve into a large bowl, pressing on solids with a rubber spatula. Set aside to cool.",
+      "Using an electric mixer on medium-high speed, whip cream to medium peaks in another large bowl. Transfer one-third of cream to a small bowl, cover, and chill until ready to use. Mix a few spoonfuls of remaining whipped cream into pumpkin mixture to lighten, then fold remaining cream into pumpkin mixture. Transfer to 2-quart dish or divide among 8 glasses. Chill at least 3 hours.",
+      "Gently whip reserved whipped cream, then top each serving with a spoonful of whipped cream.",
+      "Do ahead: Mousse can be made 2 days ahead; cover and chill."
+    ],
+    "time": {
+      "prep_min": 225,
+      "cook_min": 15,
+      "total_min": 240
+    },
+    "servings": 8,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 4,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0268",
+    "title": "Black and Wild Rice Salad with Roasted Squash",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/black-and-wild-rice-salad-with-roasted-squash-51210250",
+      "author": "Bon Appétit",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 1/2 cups black rice",
+        "quantity": 1.5,
+        "unit": "cup",
+        "item": "black rice"
+      },
+      {
+        "raw": "1/2 cup wild rice",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "wild rice"
+      },
+      {
+        "raw": "Kosher salt",
+        "quantity": null,
+        "unit": null,
+        "item": "kosher salt"
+      },
+      {
+        "raw": "1/2 medium butternut squash, peeled, seeds removed, cut into pieces",
+        "quantity": 0.5,
+        "unit": null,
+        "item": "medium butternut squash"
+      },
+      {
+        "raw": "1/2 cup olive oil, divided",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "olive oil"
+      },
+      {
+        "raw": "Freshly ground black pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "black pepper"
+      },
+      {
+        "raw": "1/4 cup red wine vinegar",
+        "quantity": 0.25,
+        "unit": "cup",
+        "item": "red wine vinegar"
+      },
+      {
+        "raw": "2 teaspoons honey",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "honey"
+      },
+      {
+        "raw": "2 scallions, thinly sliced",
+        "quantity": 2,
+        "unit": null,
+        "item": "scallions"
+      },
+      {
+        "raw": "1 cup pomegranate seeds",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "pomegranate seeds"
+      },
+      {
+        "raw": "1 cup microgreens or sprouts",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "microgreens or sprouts"
+      },
+      {
+        "raw": "1/2 cup roasted pistachios, chopped",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "roasted pistachios"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 450°F. Cook black rice and wild rice in a large pot of boiling salted water until tender, 35–40 minutes; drain and rinse, shaking off as much water as possible. Spread out on a rimmed baking sheet and let cool.",
+      "Meanwhile, toss squash with 1/4 cup oil on another baking sheet; season with salt and pepper. Roast, tossing once, until golden brown and tender, 20–25 minutes; let cool.",
+      "Whisk vinegar, honey, and remaining 1/4 cup oil in a large bowl. Add black rice and wild rice, squash, scallions, pomegranate seeds, microgreens, and pistachios; season with salt and pepper and toss to combine.",
+      "DO AHEAD: Salad (without microgreens) can be made 4 hours ahead. Cover and chill."
+    ],
+    "time": {
+      "prep_min": 35,
+      "cook_min": 40,
+      "total_min": 75
+    },
+    "servings": 8,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 2,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0273",
+    "title": "Butternut Squash Vegducken",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/vegducken",
+      "author": "Epicurious",
+      "retrieved": "2026-11-12"
+    },
+    "description": "Special equipment: Kitchen twine",
+    "ingredients": [
+      {
+        "raw": "1 cup pecans",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "pecans"
+      },
+      {
+        "raw": "1 (7 1/2\"-long) zucchini",
+        "quantity": 1,
+        "unit": null,
+        "item": "zucchini"
+      },
+      {
+        "raw": "1 (9 1/2\"-long) globe eggplant",
+        "quantity": 1,
+        "unit": null,
+        "item": "globe eggplant"
+      },
+      {
+        "raw": "1 (11 1/2\"-long) butternut squash",
+        "quantity": 1,
+        "unit": null,
+        "item": "butternut squash"
+      },
+      {
+        "raw": "2 scallions",
+        "quantity": 2,
+        "unit": null,
+        "item": "scallions"
+      },
+      {
+        "raw": "2 garlic cloves, divided",
+        "quantity": 2,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "raw": "1 shallot, coarsely chopped",
+        "quantity": 1,
+        "unit": null,
+        "item": "shallot"
+      },
+      {
+        "raw": "1/4 pound shiitake mushrooms, trimmed, coarsely chopped",
+        "quantity": 0.25,
+        "unit": "lb",
+        "item": "shiitake mushrooms"
+      },
+      {
+        "raw": "1 tablespoon olive oil",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "olive oil"
+      },
+      {
+        "raw": "9 sprigs thyme, divided",
+        "quantity": 9,
+        "unit": "sprig",
+        "item": "thyme"
+      },
+      {
+        "raw": "1 cup (2 sticks) unsalted butter",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "unsalted butter"
+      },
+      {
+        "raw": "1/2 teaspoon red pepper flakes",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "red pepper flakes"
+      },
+      {
+        "raw": "2 tablespoons pure maple syrup",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "pure maple syrup"
+      },
+      {
+        "raw": "2 large eggs",
+        "quantity": 2,
+        "unit": null,
+        "item": "large eggs"
+      },
+      {
+        "raw": "1 cup finely grated Parmesan",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "Parmesan"
+      },
+      {
+        "raw": "1/2 cup fine plain breadcrumbs",
+        "quantity": 0.5,
+        "unit": "cup",
+        "item": "plain breadcrumbs"
+      },
+      {
+        "raw": "6 tablespoons coarsely chopped parsley, divided",
+        "quantity": 6,
+        "unit": "tbsp",
+        "item": "parsley"
+      },
+      {
+        "raw": "Kosher salt",
+        "quantity": null,
+        "unit": null,
+        "item": "kosher salt"
+      },
+      {
+        "raw": "2 tablespoons mint, coarsely chopped",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "mint"
+      },
+      {
+        "raw": "1 tablespoon fresh lemon juice",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "lemon juice"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 350°F. Toast pecans on a rimmed baking sheet, tossing once, until fragrant and slightly darkened, 10–15 minutes. Let cool, then coarsely chop and set aside.",
+      "Increase oven temperature to 400°F. Line a rimmed baking sheet with aluminum foil.",
+      "Cut zucchini in half lengthwise. Using a medium-size quick-release ice cream scoop or heavy spoon, scoop out insides, leaving a small divot down the center. Reserve zucchini filling.",
+      "Cut eggplant in half lengthwise and scoop out insides, leaving a 1/4\" border on all sides and creating a divot deep enough to fit zucchini halves inside. Reserve eggplant filling.",
+      "Cut butternut squash in half lengthwise and remove seeds. Scoop out insides, leaving a 1/2\" border on all sides and creating a divot deep enough to fit eggplant halves inside. Reserve squash filling.",
+      "Using a fork, pierce insides of squash and zucchini halves. Using a sharp knife, make shallow crosshatch marks inside of eggplant, being careful not to pierce the skin. Trim scallions to match the length of the squash.",
+      "Coarsely chop 1 garlic clove. Combine chopped garlic, shallot, mushrooms, zucchini filling, eggplant filling, and squash filling in a large bowl. Working in batches, pulse in a food processor until finely chopped.",
+      "Heat oil over medium in a large skillet. Add vegetable purée and 3 thyme sprigs. Cook, stirring occasionally, until mixture begins to brown, about 5 minutes. Return to bowl and let cool.",
+      "Meanwhile, smash and peel remaining garlic clove and combine with butter, red pepper flakes, and remaining 6 thyme sprigs in a small pot. Cook over medium heat, stirring occasionally, until butter is melted, then stir in maple syrup.",
+      "Pluck out thyme sprigs from vegetable mixture. Stir in eggs, Parmesan, breadcrumbs, 3 Tbsp. parsley, and 1 tsp. salt.",
+      "Place squash halves, cut side up, on prepared baking sheet. Brush inside of each with maple syrup butter and season with 1/2 tsp. salt. Using the back of a spoon, press 3/4 cup vegetable mixture into each half until interior is fully coated. Sprinkle with 1/4 cup reserved pecans.",
+      "Nestle eggplant halves, cut side up, inside squash halves. Brush inside of each eggplant half with maple syrup butter and season with 1/2 tsp. salt. Using the back of a spoon, press 1/3 cup vegetable mixture into each half until interior is fully coated. Sprinkle with 1/4 cup pecans.",
+      "Nestle zucchini halves, cut side up, inside eggplant halves. Brush inside of each zucchini half with maple syrup butter and season with 1/8 tsp. salt. Using a spoon, fill zucchini halves with 1/4 cup vegetable mixture, spreading it flat. Sprinkle with 1/4 cup pecans (reserve remaining pecans), then lay scallions down the middle.",
+      "Cut 3 (18\") lengths of kitchen twine. Slip twine under one squash half, then top with second squash half, so that cut sides face each other, and press down to seal. Tightly tie twine around squash to secure. Brush top with maple syrup butter (reserve remaining butter) and season with 1/2 tsp. salt. Wrap squash in aluminum foil and place in the center of the baking sheet. Using 2 loaf pans or small metal bowls turned upside down, keep squash secure on baking sheet.",
+      "Bake until squash is tender to the touch, 1 hour 45 minutes–2 hours. Remove foil and let rest 20 minutes.",
+      "Meanwhile, pluck out thyme from remaining maple syrup butter, heat over medium-low until warm, then stir in mint, lemon juice, 1 tsp. salt, and remaining 3 Tbsp. parsley.",
+      "Place vegducken on a cutting board and cut into 1\" slices with a serrated knife, transferring to serving plates as you go. Spoon herb butter over slices, garnish with remaining pecans, and serve.",
+      "Cooks' note: The sizes of the squash, eggplant, and zucchini can vary a bit from the lengths specified; the key is that they fit/nestle into one another. When possible, choose squash and eggplant that have a neck and bulb that are as uniform in width as possible."
+    ],
+    "time": {
+      "prep_min": 105,
+      "cook_min": 120,
+      "total_min": 225
+    },
+    "servings": 6,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 3,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0275",
+    "title": "Cauliflower Steaks With Coconut-Turmeric Relish",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/cauliflower-steaks-with-coconut-turmeric-relish",
+      "author": "Bon Appétit",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 medium head of cauliflower",
+        "quantity": 1,
+        "unit": "head",
+        "item": "cauliflower"
+      },
+      {
+        "raw": "3 Tbsp. extra-virgin olive oil, divided",
+        "quantity": 3,
+        "unit": "tbsp",
+        "item": "extra-virgin olive oil"
+      },
+      {
+        "raw": "Kosher salt, freshly ground pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "kosher salt"
+      },
+      {
+        "raw": "Kosher salt, freshly ground pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "black pepper"
+      },
+      {
+        "raw": "Plain whole-milk Greek yogurt or plant-based alternative and Coconut-Turmeric Relish (for serving; optional)",
+        "quantity": null,
+        "unit": null,
+        "item": "plain whole-milk Greek yogurt"
+      },
+      {
+        "raw": "Plain whole-milk Greek yogurt or plant-based alternative and Coconut-Turmeric Relish (for serving; optional)",
+        "quantity": null,
+        "unit": null,
+        "item": "Coconut-Turmeric Relish",
+        "recipe_ref": "r0294"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 400°F. Remove the toughest outer leaves from cauliflower (leave the tender inner leaves) and trim stem. Resting cauliflower on stem, cut in half from top to bottom, creating two lobes with stem attached. Trim off outer rounded edge of each piece to create two 1 1/2\"-thick steaks; reserve trimmed off florets for making cauliflower rice or roasted cauliflower.",
+      "Heat 2 Tbsp. oil in a large cast-iron skillet over medium-high. Cook cauliflower, gently lifting up occasionally to let oil run underneath, until deep golden brown, about 5 minutes. Add remaining 1 Tbsp. oil to skillet, turn steaks over, and season with salt and pepper. Cook until second side is golden brown, about 3 minutes, then transfer skillet to oven. Roast just until stems are tender when pierced with a cake tester or toothpick, 8–12 minutes. Let cool slightly.",
+      "If using relish, swipe some yogurt over each plate and place a steak on top. Spoon one-quarter of relish over each. Season with more salt and pepper."
+    ],
+    "time": {
+      "prep_min": 10,
+      "cook_min": 18,
+      "total_min": 28
+    },
+    "servings": 2,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 2,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0284",
+    "title": "Roasted Zucchini Lasagna",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/roasted-zucchini-lasagna",
+      "author": "Donna Hay",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "8 medium zucchini, sliced into 1/16-inch ribbons",
+        "quantity": 8,
+        "unit": null,
+        "item": "medium zucchini"
+      },
+      {
+        "raw": "Extra virgin olive oil, for brushing, plus 2 tablespoons extra",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "extra virgin olive oil"
+      },
+      {
+        "raw": "Sea salt and cracked black pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "sea salt"
+      },
+      {
+        "raw": "Sea salt and cracked black pepper",
+        "quantity": null,
+        "unit": null,
+        "item": "black pepper"
+      },
+      {
+        "raw": "1 small onion, chopped",
+        "quantity": 1,
+        "unit": null,
+        "item": "small onion"
+      },
+      {
+        "raw": "2 cloves garlic, crushed",
+        "quantity": 2,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "raw": "2 tablespoons chopped oregano",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "oregano"
+      },
+      {
+        "raw": "1 bunch kale (500 grams), trimmed and blanched",
+        "quantity": 500,
+        "unit": "g",
+        "item": "kale"
+      },
+      {
+        "raw": "1 bunch English spinach (375 grams), trimmed and blanched",
+        "quantity": 375,
+        "unit": "g",
+        "item": "English spinach"
+      },
+      {
+        "raw": "2 1/4 cups (540 grams) fresh ricotta",
+        "quantity": 540,
+        "unit": "g",
+        "item": "fresh ricotta"
+      },
+      {
+        "raw": "1 tablespoon finely grated lemon rind",
+        "quantity": 1,
+        "unit": "tbsp",
+        "item": "lemon rind"
+      },
+      {
+        "raw": "1 cup flat-leaf parsley, finely chopped",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "flat-leaf parsley"
+      },
+      {
+        "raw": "3/4 cup (75 grams) grated mozzarella",
+        "quantity": 75,
+        "unit": "g",
+        "item": "mozzarella"
+      },
+      {
+        "raw": "3/4 cup (60 grams) finely grated Parmesan",
+        "quantity": 60,
+        "unit": "g",
+        "item": "Parmesan"
+      },
+      {
+        "raw": "Baby (micro) salad mix (optional), to serve",
+        "quantity": null,
+        "unit": null,
+        "item": "baby salad mix"
+      }
+    ],
+    "steps": [
+      "Preheat oven to 425°F (220°C). Place the zucchini in a single layer on baking trays lined with non-stick baking paper. Brush both sides of the ribbons with oil and sprinkle with salt. Roast for 12 to 14 minutes or until golden. Heat the extra oil in a medium non-stick frying pan over medium heat. Add the onion, garlic and oregano and cook for 4 to 5 minutes or until softened. Allow to cool slightly. Place the kale and spinach in paper towel or a clean tea towel and squeeze to remove any excess liquid. Roughly chop, add to the onion mixture and stir to combine. Place the ricotta, lemon rind, parsley, salt and pepper in a bowl and mix to combine. Line the base of a lightly greased 9x9-inch baking dish with one-third of the roasted zucchini. Top with half the ricotta mixture and half the kale mixture. Sprinkle with one-third of the mozzarella and Parmesan. Top with half the remaining zucchini, and the remaining ricotta and kale mixtures. Sprinkle with half the remaining mozzarella and Parmesan. Top with the remaining zucchini and sprinkle with the remaining mozzarella and Parmesan. Bake for 10 to 15 minutes or until crisp and golden. Slice and serve with the baby salad mix."
+    ],
+    "time": {
+      "prep_min": 20,
+      "cook_min": 30,
+      "total_min": 50
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 2,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0288",
+    "title": "Sunflower Seed \"Risotto\" With Squash and Mushrooms",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/sunflower-seed-risotto-with-squash-and-mushrooms",
+      "author": "Epicurious",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "4 cups raw sunflower seeds",
+        "quantity": 4,
+        "unit": "cup",
+        "item": "raw sunflower seeds"
+      },
+      {
+        "raw": "2/3 cup heavy cream",
+        "quantity": 0.67,
+        "unit": "cup",
+        "item": "heavy cream"
+      },
+      {
+        "raw": "2/3 cup freshly grated Parmesan (about 1 ounce), plus more for serving",
+        "quantity": 0.67,
+        "unit": "cup",
+        "item": "Parmesan"
+      },
+      {
+        "raw": "4 tablespoons olive oil, divided",
+        "quantity": 4,
+        "unit": "tbsp",
+        "item": "olive oil"
+      },
+      {
+        "raw": "1/2 large onion, finely chopped",
+        "quantity": 0.5,
+        "unit": null,
+        "item": "large onion"
+      },
+      {
+        "raw": "4 garlic cloves, finely chopped, divided",
+        "quantity": 4,
+        "unit": "clove",
+        "item": "garlic"
+      },
+      {
+        "raw": "6 thyme sprigs, divided, plus more for serving",
+        "quantity": 6,
+        "unit": "sprig",
+        "item": "thyme"
+      },
+      {
+        "raw": "2 cups vegetable broth",
+        "quantity": 2,
+        "unit": "cup",
+        "item": "vegetable broth"
+      },
+      {
+        "raw": "2 tablespoons dry white wine",
+        "quantity": 2,
+        "unit": "tbsp",
+        "item": "dry white wine"
+      },
+      {
+        "raw": "3 cups 1/2\" cubed butternut squash (about 1 pound squash)",
+        "quantity": 3,
+        "unit": "cup",
+        "item": "butternut squash"
+      },
+      {
+        "raw": "3 1/2 ounces shiitake or cremini mushrooms, trimmed, coarsely chopped",
+        "quantity": 3.5,
+        "unit": "oz",
+        "item": "shiitake or cremini mushrooms"
+      },
+      {
+        "raw": "1 1/2 teaspoons kosher salt, plus more",
+        "quantity": 1.5,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "1/2 teaspoon freshly ground black pepper, plus more",
+        "quantity": 0.5,
+        "unit": "tsp",
+        "item": "black pepper"
+      }
+    ],
+    "steps": [
+      "Place sunflower seeds in a medium, wide, heavy pot or Dutch oven and cover with water. Cover pot and bring to a boil, then reduce to a simmer and cook until al dente, 45–55 minutes.",
+      "Strain seeds through a fine-mesh sieve into a large bowl, reserving cooking liquid. Transfer 1 cup cooking liquid and 1 cup seeds to a blender; reserve remaining seeds and discard remaining liquid. Add cream and 2/3 cup Parmesan and blend until very smooth.",
+      "Wipe out pot. Heat 2 Tbsp. oil in pot over medium. Add onion, half of garlic, and 4 thyme sprigs. Cook, stirring, until garlic is fragrant and onion begins to turn translucent, about 4 minutes. Add reserved sunflower seeds and cook until seeds are toasted, about 1 minute. Add broth and wine and simmer over medium heat until liquid is almost fully reduced and seeds are tender, 15-20 minutes.",
+      "Meanwhile, heat 1 Tbsp. oil in a large skillet over medium-high. Add squash and cook, stirring occasionally, until just beginning to brown, 5–7 minutes. Add mushrooms, 2 thyme sprigs, and remaining garlic and 1 Tbsp. oil and continue cooking until mushrooms and squash are tender, about 5 minutes. Season with 1/2 tsp. salt and 1/4 tsp. pepper and transfer to a plate.",
+      "When broth is almost completely evaporated, add blended seed mixture and cook until sauce thickens, 5-8 minutes. Discard thyme sprigs and stir in 1 tsp. salt and 1/4 tsp. pepper; taste and adjust seasonings. Divide \"risotto\" among bowls and top with sautéed vegetables, Parmesan, pepper, and thyme sprigs."
+    ],
+    "time": {
+      "prep_min": 25,
+      "cook_min": 65,
+      "total_min": 90
+    },
+    "servings": 4,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 2,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  },
+  {
+    "id": "r0290",
+    "title": "Torn Potatoes of Many Colors With Chile-Lime Butter",
+    "source": {
+      "site": "epicurious",
+      "url": "https://www.epicurious.com/recipes/food/views/torn-potatoes-of-many-colors-with-chile-lime-butter",
+      "author": "Epicurious",
+      "retrieved": "2026-11-12"
+    },
+    "description": null,
+    "ingredients": [
+      {
+        "raw": "1 serrano chile, coarsely chopped, seeds removed if desired",
+        "quantity": 1,
+        "unit": null,
+        "item": "serrano chile"
+      },
+      {
+        "raw": "2 cups cilantro leaves with tender stems (about 1 bunch)",
+        "quantity": 2,
+        "unit": "cup",
+        "item": "cilantro leaves"
+      },
+      {
+        "raw": "1 cup (2 sticks) unsalted butter, room temperature",
+        "quantity": 1,
+        "unit": "cup",
+        "item": "unsalted butter"
+      },
+      {
+        "raw": "2 tsp. finely grated lime zest",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "lime zest"
+      },
+      {
+        "raw": "2 tsp. kosher salt",
+        "quantity": 2,
+        "unit": "tsp",
+        "item": "kosher salt"
+      },
+      {
+        "raw": "5 lb. potatoes of mixed colors and similar sizes (such as sweet, purple sweet, russet, and/or Yukon Gold), scrubbed",
+        "quantity": 5,
+        "unit": "lb",
+        "item": "potatoes of mixed colors"
+      },
+      {
+        "raw": "1 1/2 cups pomegranate arils (from 2 pomegranates)",
+        "quantity": 1.5,
+        "unit": "cup",
+        "item": "pomegranate arils"
+      },
+      {
+        "raw": "Lime wedges and flaky sea salt (for serving)",
+        "quantity": null,
+        "unit": null,
+        "item": "lime wedges"
+      },
+      {
+        "raw": "Lime wedges and flaky sea salt (for serving)",
+        "quantity": null,
+        "unit": null,
+        "item": "flaky sea salt"
+      }
+    ],
+    "steps": [
+      "Pulse chile and cilantro in a food processor until finely chopped. Add butter, lime zest, and kosher salt and pulse until smooth. Transfer to a sheet of parchment paper and roll into a 6\"-long log. Chill until firm, at least 2 hours and up to 3 days.",
+      "Preheat oven to 375°F. Arrange potatoes in an even layer on a rimmed baking sheet and cover tightly with foil. Roast 40 minutes. Remove foil (save for later!), turn potatoes, and continue to roast, uncovered, until largest potato is very tender when pierced with a paring knife or fork, 20– 30 minutes.",
+      "Unwrap chile-lime butter and thinly slice crosswise. Using two forks, tear potatoes (including skins) into 3\"–4\" pieces. Transfer to a large (preferably warmed) platter. Using your hands, crumble and scatter butter over potatoes (yes, use all of the butter). Cover with reserved foil and let sit until butter is mostly melted, 3–4 minutes. Top with pomegranate arils, squeeze lime juice over, and sprinkle with sea salt."
+    ],
+    "time": {
+      "prep_min": 90,
+      "cook_min": 60,
+      "total_min": 150
+    },
+    "servings": 10,
+    "source_tags": {
+      "cuisine": [
+        "Americas",
+        "USA"
+      ]
+    },
+    "cultural relevance": {
+      "score": 2,
+      "reasoning": "Thanksgiving-related recipe; Thanksgiving is a very important holiday in the US and Canada."
+    }
+  }
+]
