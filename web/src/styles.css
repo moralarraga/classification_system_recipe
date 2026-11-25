@@ -156,16 +156,13 @@ a { color: var(--accent); }
   box-shadow: var(--shadow); cursor: pointer;
   transition: border-color .15s, transform .15s;
 }
-/* Recipes with cultural relevance 3 or higher: orange highlight card.
-   Golden hour to tangerine fill, aperol top band, espresso text (4.3:1 or better). */
+/* Recipes with cultural relevance 3 or higher: solid tangerine card, espresso text. */
 .card-btn.card-cultural {
   --card-ink: var(--espresso);
   --card-title: var(--espresso);
   --card-label: var(--espresso);
   color: var(--card-ink);
-  background:
-    linear-gradient(var(--aperol), var(--aperol)) top / 100% 6px no-repeat,
-    linear-gradient(160deg, var(--golden-hour) 0%, var(--tangerine) 100%);
+  background: var(--tangerine);
   border-color: var(--tangerine);
 }
 .card-btn.card-cultural:hover { border-color: var(--aperol); }
