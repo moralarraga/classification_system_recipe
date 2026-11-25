@@ -132,7 +132,7 @@ export const FACETS = [
   {
     id: "cr",
     label: "Cultural Relevance",
-    hint: "Hand-labeled 0–5: how tied a dish is to a specific culture or tradition.",
+    hint: "A number 0 to 5 representing how tied a recipe is to a specific culture or tradition. Where:\n0 - Not Culturally Tied\n5 - Strongly Culturally Tied",
     values: (r) => { const s = crScore(r); return s === null ? ["Unlabeled"] : [String(s)]; },
     order: ["5", "4", "3", "2", "1", "0", "Unlabeled"],
     display: (v) => CR_LABELS[v] || v,
@@ -145,7 +145,7 @@ export const FACETS = [
   },
   {
     id: "country",
-    label: "Country / Origin",
+    label: "Country",
     values: (r) => { const c = cleanCuisine(r).countries; return c.length ? c : ["No country"]; },
     collapsedLimit: 8,
     searchable: true,
@@ -153,13 +153,13 @@ export const FACETS = [
   },
   {
     id: "time",
-    label: "Total Time",
+    label: "Cooking Time",
     values: (r) => [timeBucket(r)],
     order: [...TIME_BUCKETS.map((b) => b.value), "Not given"],
   },
   {
     id: "ingredient",
-    label: "Contains Ingredient",
+    label: "Ingredients",
     hint: "Checking several shows recipes with all of them.",
     values: ingredientItems,
     collapsedLimit: 8,
@@ -169,7 +169,7 @@ export const FACETS = [
   },
   {
     id: "stype",
-    label: "Source Type",
+    label: "Source",
     values: (r) => [sourceType(r)],
   },
   {
