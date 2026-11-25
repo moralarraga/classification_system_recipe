@@ -26,9 +26,9 @@
   --card-label: var(--key-lime);
   --card-hover: var(--golden-hour);
 
-  /* Buttons: butter sun with aperol text; hearts are aperol */
+  /* Buttons: butter sun with palm shadow text; hearts are aperol */
   --btn-bg: var(--butter-sun);
-  --btn-ink: var(--aperol);
+  --btn-ink: var(--palm-shadow);
   --heart: var(--aperol);
 
   /* Light panels (recipe detail, inputs) */

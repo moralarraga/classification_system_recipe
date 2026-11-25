@@ -54,3 +54,22 @@ test('URL hash round-trips', () => {
   assert.deepEqual([...back.selected.country], ['Italy']);
   assert.equal(back.recipe, 'r0004');
 });
+
+test('search covers every field: "Mexico" finds every Mexico-tagged recipe', () => {
+  const idx = buildSearchIndex(recipes);
+  const scores = searchRecipes(idx, 'Mexico');
+  const tagged = filterRecipes(data, st({selected: {country: new Set(['Mexico'])}}));
+  assert.ok(tagged.length >= 13);
+  for (const r of tagged) assert.ok(scores.has(r.id), r.id);
+});
+
+test('partial words match ("mex" finds Mexico recipes)', () => {
+  const idx = buildSearchIndex(recipes);
+  assert.ok(searchRecipes(idx, 'mex').size >= 13);
+});
+
+test('default sort is ID, or best match while searching', () => {
+  assert.equal(readHash('').sort, 'id');
+  assert.equal(readHash('#q=pie').sort, 'relevance');
+  assert.equal(writeHash({selected: {}, query: '', sort: 'id'}), '');
+});

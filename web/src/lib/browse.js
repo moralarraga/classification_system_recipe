@@ -58,20 +58,23 @@ const byTitle = (a, b) => a.title.localeCompare(b.title);
 const nullsLast = (x, y, dir) => (x === null) - (y === null) || dir * (x - y);
 
 export const SORTS = {
-  relevance: {label: 'Best match', fn: (scores) => (a, b) => scores ? scores.get(b.id) - scores.get(a.id) : a.id.localeCompare(b.id)},
+  id: {label: 'ID (default)', fn: () => (a, b) => a.id.localeCompare(b.id)},
+  relevance: {label: 'Best match', fn: (scores) => (a, b) => scores ? (scores.get(b.id) - scores.get(a.id)) || a.id.localeCompare(b.id) : a.id.localeCompare(b.id)},
   title: {label: 'Title A–Z', fn: () => byTitle},
   'time-asc': {label: 'Quickest first', fn: () => (a, b) => nullsLast(total(a), total(b), 1) || byTitle(a, b)},
   'time-desc': {label: 'Longest first', fn: () => (a, b) => nullsLast(total(a), total(b), -1) || byTitle(a, b)},
   'cr-desc': {label: 'Cultural relevance: high to low', fn: () => (a, b) => nullsLast(crScore(a), crScore(b), -1) || byTitle(a, b)},
   'cr-asc': {label: 'Cultural relevance: low to high', fn: () => (a, b) => nullsLast(crScore(a), crScore(b), 1) || byTitle(a, b)},
-  id: {label: 'Recipe id', fn: () => (a, b) => a.id.localeCompare(b.id)},
 };
 
 export function sortRecipes(list, sort, scores) {
-  return [...list].sort((SORTS[sort] || SORTS.relevance).fn(scores));
+  return [...list].sort((SORTS[sort] || SORTS.id).fn(scores));
 }
 
 /* URL hash <-> state, so a filtered view or an open recipe can be shared. */
+// Default sort: best match while searching, otherwise recipe id.
+export const defaultSort = (query) => (query ? 'relevance' : 'id');
+
 export function readHash(hash, facets = FACETS) {
   const p = new URLSearchParams(hash.replace(/^#/, ''));
   const selected = {};
@@ -79,7 +82,8 @@ export function readHash(hash, facets = FACETS) {
     const v = p.getAll(f.id);
     if (v.length) selected[f.id] = new Set(v);
   }
-  return {selected, query: p.get('q') || '', sort: p.get('sort') || 'relevance', recipe: p.get('recipe'), savedOnly: p.has('saved')};
+  const query = p.get('q') || '';
+  return {selected, query, sort: p.get('sort') || defaultSort(query), recipe: p.get('recipe'), savedOnly: p.has('saved')};
 }
 
 export function writeHash({selected, query, sort, recipe, savedOnly}, facets = FACETS) {
@@ -87,7 +91,7 @@ export function writeHash({selected, query, sort, recipe, savedOnly}, facets = F
   if (query) p.set('q', query);
   for (const f of facets) for (const v of selected[f.id] || []) p.append(f.id, v);
   if (savedOnly) p.set('saved', '1');
-  if (sort && sort !== 'relevance') p.set('sort', sort);
+  if (sort && sort !== defaultSort(query)) p.set('sort', sort);
   if (recipe) p.set('recipe', recipe);
   const s = p.toString();
   return s ? '#' + s : '';

@@ -4,11 +4,20 @@
  *   const index = buildSearchIndex(recipes);
  *   const scores = searchRecipes(index, "query");  // Map(id -> score), only matches
  *
- * Each recipe becomes one document made of its title, description, ingredient
- * items and steps. The title is repeated TITLE_WEIGHT times so a title match
- * counts more. k1 and b are the usual BM25 defaults. If your IR evaluation uses
- * different settings or fields, change them here so the site matches it.
+ * Each recipe becomes one document made of every text field in the JSON: title,
+ * description, ingredient lines and items, steps, cuisine tags (region/country,
+ * raw and cleaned), source site and author, and the cultural relevance reasoning.
+ * The title is repeated TITLE_WEIGHT times so a title match counts more. k1 and b
+ * are the usual BM25 defaults. If your IR evaluation uses different settings or
+ * fields, change them here so the site matches it.
+ *
+ * Partial words: a recipe whose text contains every query word as a substring
+ * (case- and accent-insensitive, so "mex" finds "Mexico") is also returned. BM25
+ * still does the ranking; substring-only matches get a tiny score so they sort
+ * after the BM25 matches.
  */
+import {cleanCuisine} from './facets.js';
+
 const BM25_K1 = 1.2;
 const BM25_B = 0.75;
 const TITLE_WEIGHT = 3;
@@ -35,19 +44,38 @@ function stem(t) {
   return t;
 }
 
+const SUBSTRING_SCORE = 1e-6;
+
+function fold(text) {
+  return String(text || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+// Every text field of a recipe, once each (used for substring matching).
+function allFields(r) {
+  const c = cleanCuisine(r);
+  const cr = r["cultural relevance"] || {};
+  return [
+    r.id, r.title, r.description,
+    ...(r.ingredients || []).flatMap((i) => [i.raw, i.item, i.unit]),
+    ...(r.steps || []),
+    ...((r.source_tags && r.source_tags.cuisine) || []), ...c.regions, ...c.countries,
+    r.source && r.source.site, r.source && r.source.author,
+    cr.reasoning,
+  ].filter(Boolean).join(" ");
+}
+
+// The BM25 document: all fields, with title and ingredient items weighted up.
 function recipeText(r) {
-  const parts = [];
-  for (let i = 0; i < TITLE_WEIGHT; i++) parts.push(r.title);
-  parts.push(r.description);
+  const parts = [allFields(r)];
+  for (let i = 1; i < TITLE_WEIGHT; i++) parts.push(r.title);
   for (const ing of r.ingredients || []) {
-    for (let i = 0; i < INGREDIENT_WEIGHT; i++) parts.push(ing.item);
+    for (let i = 1; i < INGREDIENT_WEIGHT; i++) parts.push(ing.item);
   }
-  parts.push((r.steps || []).join(" "));
   return parts.join(" ");
 }
 
 export function buildSearchIndex(recipes) {
-  const docs = new Map();   // id -> {tf: Map(term -> count), len}
+  const docs = new Map();   // id -> {tf: Map(term -> count), len, text}
   const df = new Map();     // term -> number of docs containing it
   let totalLen = 0;
   for (const r of recipes) {
@@ -55,7 +83,7 @@ export function buildSearchIndex(recipes) {
     const tf = new Map();
     for (const t of tokens) tf.set(t, (tf.get(t) || 0) + 1);
     for (const t of tf.keys()) df.set(t, (df.get(t) || 0) + 1);
-    docs.set(r.id, { tf, len: tokens.length });
+    docs.set(r.id, { tf, len: tokens.length, text: fold(allFields(r)) });
     totalLen += tokens.length;
   }
   return { docs, df, N: recipes.length, avgLen: totalLen / Math.max(recipes.length, 1) };
@@ -63,8 +91,9 @@ export function buildSearchIndex(recipes) {
 
 export function searchRecipes(index, query) {
   const terms = [...new Set(tokenize(query))];
+  const words = fold(query).split(/\s+/).filter(Boolean);
   const scores = new Map();
-  if (!terms.length) return scores;
+  if (!terms.length && !words.length) return scores;
   for (const [id, doc] of index.docs) {
     let score = 0;
     for (const t of terms) {
@@ -75,6 +104,7 @@ export function searchRecipes(index, query) {
       score += idf * (f * (BM25_K1 + 1)) / (f + BM25_K1 * (1 - BM25_B + BM25_B * doc.len / index.avgLen));
     }
     if (score > 0) scores.set(id, score);
+    else if (words.length && words.every((w) => doc.text.includes(w))) scores.set(id, SUBSTRING_SCORE);
   }
   return scores;
 }

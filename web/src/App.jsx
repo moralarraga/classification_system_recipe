@@ -2,7 +2,7 @@ import {useEffect, useMemo, useState} from 'react';
 import {AnimatePresence, MotionConfig} from 'framer-motion';
 import {FACETS} from './lib/facets.js';
 import {buildSearchIndex, searchRecipes} from './lib/search.js';
-import {prepare, filterRecipes, sortRecipes, readHash, writeHash, SORTS} from './lib/browse.js';
+import {prepare, filterRecipes, sortRecipes, readHash, writeHash, SORTS, defaultSort} from './lib/browse.js';
 import {supabase} from './lib/supabase.js';
 import {local, loadRemote, saveRemote} from './lib/saved.js';
 import FacetPanel from './components/FacetPanel.jsx';
@@ -69,6 +69,12 @@ export default function App() {
     return () => removeEventListener('keydown', k);
   }, []);
 
+  // Searching switches the default sort to best match, clearing it switches back to ID.
+  const setSearch = (q) => {
+    setQuery(q);
+    setSort((s) => (s === defaultSort(query) ? defaultSort(q) : s));
+  };
+
   const scores = useMemo(() => (data && query ? searchRecipes(data.index, query) : null), [data, query]);
   const state = {selected, scores, savedOnly, saved};
   const results = useMemo(() => (data ? sortRecipes(filterRecipes(data, state), sort, scores) : []),
@@ -84,10 +90,10 @@ export default function App() {
     });
     reset();
   };
-  const clearAll = () => { setSelected({}); setQuery(''); setDraft(''); setSavedOnly(false); reset(); };
+  const clearAll = () => { setSelected({}); setSearch(''); setDraft(''); setSavedOnly(false); reset(); };
 
   const chips = [];
-  if (query) chips.push({key: 'q', label: `Search: “${query}”`, remove: () => { setQuery(''); setDraft(''); }});
+  if (query) chips.push({key: 'q', label: `Search: “${query}”`, remove: () => { setSearch(''); setDraft(''); }});
   if (savedOnly) chips.push({key: 'saved', label: 'Saved only', remove: () => setSavedOnly(false)});
   for (const f of FACETS) for (const v of selected[f.id] || []) {
     chips.push({key: f.id + v, facet: f.label, label: f.display ? f.display(v) : v, remove: () => toggle(f.id, v)});
@@ -102,10 +108,10 @@ export default function App() {
           <h1>Recipe Browser</h1>
           <p className="tagline">A faceted collection of {data ? data.recipes.length : '…'} recipes</p>
         </div>
-        <form className="search" role="search" onSubmit={(e) => { e.preventDefault(); setQuery(draft.trim()); reset(); }}>
+        <form className="search" role="search" onSubmit={(e) => { e.preventDefault(); setSearch(draft.trim()); reset(); }}>
           <label htmlFor="q" className="sr-only">Search recipes</label>
           <input id="q" type="search" value={draft} placeholder="Search titles, ingredients, steps…" autoComplete="off"
-            onChange={(e) => { setDraft(e.target.value); if (!e.target.value) setQuery(''); }} />
+            onChange={(e) => { setDraft(e.target.value); if (!e.target.value) setSearch(''); }} />
           <button type="submit" className="primary">Search</button>
         </form>
         <Account user={user} savedCount={saved.size} />
@@ -133,8 +139,8 @@ export default function App() {
             </p>
             <label className="sort">Sort
               <select value={sort} onChange={(e) => setSort(e.target.value)}>
-                {Object.entries(SORTS).map(([k, v]) => (
-                  <option key={k} value={k}>{k === 'relevance' && !scores ? 'Default order' : v.label}</option>
+                {Object.entries(SORTS).filter(([k]) => k !== 'relevance' || query).map(([k, v]) => (
+                  <option key={k} value={k}>{v.label}</option>
                 ))}
               </select>
             </label>
