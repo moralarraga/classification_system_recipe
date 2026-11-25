@@ -179,7 +179,7 @@ a { color: var(--accent); }
 .card-btn.card-cultural .cr-dots i.on { box-shadow: inset 0 0 0 1px rgba(78, 54, 38, .5); }
 .card-btn.card-cultural .card-id { color: var(--flax-linen); }
 .card-btn.card-cultural .cr-dots i.on { background: var(--key-lime); }
-.card-btn.card-cultural .save-btn { color: var(--key-lime); }
+.card-btn.card-cultural .save-btn { color: var(--palm-shadow); }
 .card-btn.card-cultural .save-btn { background: var(--seashell); }
 .card-btn:hover { border-color: var(--card-hover); transform: translateY(-1px); }
 .card-top { display: flex; align-items: center; gap: 8px; font-size: 12px; }
