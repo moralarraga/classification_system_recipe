@@ -291,8 +291,8 @@ a { color: var(--accent); }
 .account-form p { width: 100%; margin: 0; }
 .empty-state { padding: 40px 0; text-align: center; color: var(--ink-2); }
 .swatch { display: inline-block; width: 10px; height: 10px; margin-right: 8px; border-radius: 50%; background: var(--cr-n); box-shadow: inset 0 0 0 1px rgba(78, 54, 38, .45); vertical-align: baseline; }
-/* Filter swatches match the card colors: 0-2 green (palm shadow), 3-5 orange (tangerine) */
-.swatch.cr-0, .swatch.cr-1, .swatch.cr-2 { background: var(--palm-shadow); }
+/* Filter swatches: 0-2 key lime (palm shadow was too dark on the sidebar), 3-5 tangerine */
+.swatch.cr-0, .swatch.cr-1, .swatch.cr-2 { background: var(--key-lime); }
 .swatch.cr-3, .swatch.cr-4, .swatch.cr-5 { background: var(--tangerine); }
 
 /* Recipe popup uses the colors of the card it opened from */

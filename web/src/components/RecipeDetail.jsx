@@ -33,7 +33,7 @@ export default function RecipeDetail({recipe: r, data, saved, onSave, onOpen, on
         {r.description && <p className="detail-desc">{r.description}</p>}
         <dl className="detail-facts">
           <div><dt>Region</dt><dd>{c.regions.join(', ') || 'None'}</dd></div>
-          <div><dt>Country / origin</dt><dd>{c.countries.join(', ') || 'None'}</dd></div>
+          <div><dt>Country</dt><dd>{c.countries.join(', ') || 'None'}</dd></div>
           <div><dt>Prep</dt><dd>{formatMinutes(r.time?.prep_min)}</dd></div>
           <div><dt>Cook</dt><dd>{formatMinutes(r.time?.cook_min)}</dd></div>
           <div><dt>Total</dt><dd>{formatMinutes(r.time?.total_min)}</dd></div>
