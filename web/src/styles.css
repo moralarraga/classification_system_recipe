@@ -329,7 +329,7 @@ a { color: var(--accent); }
 /* Popup info box (Region, Country, Prep, ...) */
 .sheet-basic .detail-facts { background: var(--key-lime); border: 0; }
 .sheet-basic .detail-facts dt { color: var(--tangerine); }
-.sheet-basic .detail-facts dd { color: var(--flax-linen); }
+.sheet-basic .detail-facts dd { color: var(--espresso); }
 .sheet-cultural .detail-facts { background: var(--butter-sun); border: 0; }
 .sheet-cultural .detail-facts dt { color: var(--palm-shadow); }
 .sheet-cultural .detail-facts dd { color: var(--espresso); }
