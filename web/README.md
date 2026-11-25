@@ -1,11 +1,18 @@
 # Recipe Browser (Info 202 faceted browser)
 
 Same stack as the 253A NASA Time Capsule project: Vite + React 18 + Framer Motion, optional Supabase, deploys on Vercel.
+Needs Node 20.19+ or 22.12+ (check with `node -v`).
 
 ## Run locally
     npm install
     npm run dev        # http://localhost:5173
     npm test           # facet, search and URL tests (node --test)
+
+### npm 12 and install scripts
+npm 12 blocks dependency install scripts unless the project approves them. `package.json` already approves the
+two this project can use (`allowScripts`: `esbuild`, `fsevents`), so `npm install` should not warn about them.
+If npm still lists a blocked package, run `npm install-scripts ls` to see it and
+`npm install-scripts approve <name>` to allow it, then `npm install` again.
 
 ## Data
 `public/recipes.json` is a copy of `recipes/recipes_fixed.json`. When the recipes change, copy the new file over it.
