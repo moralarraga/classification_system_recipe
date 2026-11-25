@@ -156,12 +156,21 @@ a { color: var(--accent); }
   box-shadow: var(--shadow); cursor: pointer;
   transition: border-color .15s, transform .15s;
 }
-/* Recipes with cultural relevance 3 or higher: espresso card, butter sun title, aperol top band */
+/* Recipes with cultural relevance 3 or higher: warm highlight card.
+   Butter sun to golden hour fill, tangerine-to-aperol top band, espresso text. */
 .card-btn.card-cultural {
-  --card-bg: var(--espresso);
-  --card-title: var(--butter-sun);
-  border-top: 5px solid var(--aperol);
+  --card-ink: var(--espresso);
+  --card-title: var(--espresso);
+  --card-label: var(--espresso);
+  color: var(--card-ink);
+  background:
+    linear-gradient(90deg, var(--tangerine), var(--aperol)) top / 100% 6px no-repeat,
+    linear-gradient(160deg, var(--butter-sun) 0%, var(--butter-sun) 45%, var(--golden-hour) 100%);
+  border-color: var(--golden-hour);
 }
+.card-btn.card-cultural:hover { border-color: var(--aperol); }
+.card-btn.card-cultural .cr-dots i:not(.on) { background: rgba(78, 54, 38, .18); }
+.card-btn.card-cultural .save-btn { background: var(--seashell); }
 .card-btn:hover { border-color: var(--card-hover); transform: translateY(-1px); }
 .card-top { display: flex; align-items: center; gap: 8px; font-size: 12px; }
 .card-id { font-variant-numeric: tabular-nums; }
