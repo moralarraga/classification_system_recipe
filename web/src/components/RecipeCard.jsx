@@ -14,7 +14,7 @@ export default function RecipeCard({recipe: r, saved, onOpen, onSave}) {
         <div className="card-top">
           <span className="card-id">{r.id}</span>
           {r._isSubRecipe && <span className="tag">Sub-recipe</span>}
-          <CrBadge recipe={r} />
+          <CrBadge recipe={r} label="Relevance" />
           <SaveButton saved={saved} onSave={onSave} title={r.title} />
         </div>
         <h3 className="card-title">{r.title}</h3>
