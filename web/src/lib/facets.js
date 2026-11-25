@@ -131,7 +131,7 @@ export function titleCase(s) {
 export const FACETS = [
   {
     id: "cr",
-    label: "Cultural relevance",
+    label: "Cultural Relevance",
     hint: "Hand-labeled 0–5: how tied a dish is to a specific culture or tradition.",
     values: (r) => { const s = crScore(r); return s === null ? ["Unlabeled"] : [String(s)]; },
     order: ["5", "4", "3", "2", "1", "0", "Unlabeled"],
@@ -145,7 +145,7 @@ export const FACETS = [
   },
   {
     id: "country",
-    label: "Country / origin",
+    label: "Country / Origin",
     values: (r) => { const c = cleanCuisine(r).countries; return c.length ? c : ["No country"]; },
     collapsedLimit: 8,
     searchable: true,
@@ -153,13 +153,13 @@ export const FACETS = [
   },
   {
     id: "time",
-    label: "Total time",
+    label: "Total Time",
     values: (r) => [timeBucket(r)],
     order: [...TIME_BUCKETS.map((b) => b.value), "Not given"],
   },
   {
     id: "ingredient",
-    label: "Contains ingredient",
+    label: "Contains Ingredient",
     hint: "Checking several shows recipes with all of them.",
     values: ingredientItems,
     collapsedLimit: 8,
@@ -169,19 +169,19 @@ export const FACETS = [
   },
   {
     id: "stype",
-    label: "Source type",
+    label: "Source Type",
     values: (r) => [sourceType(r)],
   },
   {
     id: "site",
-    label: "Source site",
+    label: "Source Site",
     values: (r) => [r.source && r.source.site ? r.source.site : "unknown"],
     collapsedLimit: 6,
     display: titleCase,
   },
   {
     id: "kind",
-    label: "Recipe type",
+    label: "Recipe Type",
     hint: "Sub-recipes (crusts, sauces, stocks) are used inside another recipe.",
     values: (r) => [r._isSubRecipe ? "Sub-recipe" : "Main recipe"],
     order: ["Main recipe", "Sub-recipe"],

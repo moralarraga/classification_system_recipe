@@ -120,7 +120,7 @@ export default function App() {
       <div className={'layout' + (filtersOpen ? ' filters-open' : '')}>
         <aside className="facets" id="facets" aria-label="Filters">
           <div className="facets-head">
-            <h2>Filter</h2>
+            <h2>Filters</h2>
             <button type="button" className="link-btn" onClick={clearAll}>Clear all</button>
           </div>
           <label className="saved-toggle">

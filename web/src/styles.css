@@ -68,7 +68,7 @@ a { color: var(--accent); }
 }
 .brand h1 { margin: 0; font: 700 32px/1.1 var(--font-display); color: var(--title); }
 .tagline { margin: 4px 0 0; color: var(--ink-2); font-size: 14px; }
-.search { flex: 1 1 360px; display: flex; gap: 8px; max-width: 640px; }
+.search { flex: 1 1 360px; display: flex; gap: 8px; max-width: 640px; margin-left: auto; }
 .search input {
   flex: 1; min-width: 0;
   padding: 10px 14px;
@@ -110,14 +110,14 @@ a { color: var(--accent); }
 }
 .facets .facet-filter { color: var(--espresso); background: var(--seashell); }
 .facets-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
-.facets-head h2 { margin: 0; font-size: 18px; }
+.facets-head h2 { margin: 0; font-size: 18px; text-transform: uppercase; letter-spacing: .3em; }
 .link-btn {
   padding: 3px 10px; font: 700 13px var(--font);
   color: var(--btn-ink); background: var(--btn-bg); border: 1px solid transparent; border-radius: 999px; cursor: pointer;
 }
 .facet .link-btn { margin-top: 2px; }
 .facet { padding: 14px 0; border-top: 1px solid var(--line); }
-.facet h3 { margin: 0 0 6px; font-size: 14px; text-transform: uppercase; letter-spacing: .04em; color: var(--ink-2); }
+.facet h3 { margin: 0 0 6px; font-size: 15px; color: var(--ink-2); }
 .facet.has-selection h3 { color: var(--accent); }
 .facet-hint { margin: -2px 0 8px; font-size: 12px; color: var(--ink-2); }
 .facet-filter {
