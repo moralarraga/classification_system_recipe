@@ -12,7 +12,7 @@ export default function RecipeCard({recipe: r, saved, onOpen, onSave}) {
       <div className={'card-btn' + (crScore(r) >= 3 ? ' card-cultural' : '')} role="button" tabIndex={0} onClick={onOpen}
         onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onOpen(); } }}>
         <div className="card-top">
-          <span>{r.id}</span>
+          <span className="card-id">{r.id}</span>
           {r._isSubRecipe && <span className="tag">Sub-recipe</span>}
           <CrBadge recipe={r} />
           <SaveButton saved={saved} onSave={onSave} title={r.title} />
