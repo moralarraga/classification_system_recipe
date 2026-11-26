@@ -42,7 +42,7 @@ export default function RecipeDetail({recipe: r, data, saved, onSave, onOpen, on
         <section>
           <h3>Cultural relevance</h3>
           <CrBadge recipe={r} label="Cultural Relevance" />
-          <p className={cr.reasoning ? undefined : 'muted'}>{cr.reasoning || 'No reasoning recorded.'}</p>
+          {cr.reasoning && <p>{cr.reasoning}</p>}
         </section>
         {data.usedIn.has(r.id) && (
           <section>
