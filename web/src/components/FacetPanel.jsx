@@ -27,8 +27,8 @@ function Facet({f, data, state, onToggle}) {
           const n = counts.get(v) || 0, on = sel.has(v), id = `f-${f.id}-${String(v).replace(/[^a-z0-9]/gi, '_')}`;
           return (
             <li key={v} className={n === 0 && !on ? 'empty' : undefined}>
-              <input type="checkbox" id={id} checked={on} disabled={n === 0 && !on} onChange={() => onToggle(f.id, v)} />
-              <label htmlFor={id}><span>{f.id === 'cr' && /^\d$/.test(v) && <i className={`swatch cr-${v}`} aria-hidden="true" />}{show(v)}</span><span className="v-count">{n}</span></label>
+              <input type="checkbox" id={id} className={f.id === 'cr' && /^\d$/.test(v) ? `cr-check ${Number(v) >= 3 ? 'cr-check-cultural' : 'cr-check-basic'}` : undefined} checked={on} disabled={n === 0 && !on} onChange={() => onToggle(f.id, v)} />
+              <label htmlFor={id}><span>{show(v)}</span><span className="v-count">{n}</span></label>
             </li>
           );
         })}
