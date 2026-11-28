@@ -64,7 +64,7 @@ export default function App() {
     return () => removeEventListener('hashchange', onHash);
   }, []);
   useEffect(() => {
-    const k = (e) => { if (e.key === 'Escape') setOpenId(null); };
+    const k = (e) => { if (e.key === 'Escape') { setOpenId(null); setFiltersOpen(false); } };
     addEventListener('keydown', k);
     return () => removeEventListener('keydown', k);
   }, []);
@@ -104,6 +104,10 @@ export default function App() {
   return (
     <MotionConfig reducedMotion="user">
       <header className="site-header">
+        <button type="button" className="menu-btn" aria-controls="facets" aria-expanded={filtersOpen}
+          aria-label={filtersOpen ? 'Close filters' : 'Open filters'} onClick={() => setFiltersOpen((o) => !o)}>
+          <span className="menu-icon" aria-hidden="true"><i /><i /><i /></span>
+        </button>
         <div className="brand">
           <h1>Recipe Browser</h1>
           <p className="tagline">A faceted collection of {data ? data.recipes.length : '…'} recipes</p>
@@ -118,10 +122,12 @@ export default function App() {
       </header>
 
       <div className={'layout' + (filtersOpen ? ' filters-open' : '')}>
+        {filtersOpen && <div className="filters-backdrop" onClick={() => setFiltersOpen(false)} aria-hidden="true" />}
         <aside className="facets" id="facets" aria-label="Filters">
           <div className="facets-head">
             <h2>Filters</h2>
             <button type="button" className="link-btn" onClick={clearAll}>Clear all</button>
+            <button type="button" className="close-filters" aria-label="Close filters" onClick={() => setFiltersOpen(false)}>×</button>
           </div>
           <label className="saved-toggle">
             <input type="checkbox" checked={savedOnly} onChange={(e) => { setSavedOnly(e.target.checked); reset(); }} />
@@ -132,8 +138,6 @@ export default function App() {
 
         <main className="results">
           <div className="results-bar">
-            <button type="button" className="filters-toggle" aria-controls="facets" aria-expanded={filtersOpen}
-              onClick={() => setFiltersOpen((o) => !o)}>Filters</button>
             <p className="result-count" aria-live="polite">
               {error || (data ? `${results.length} recipe${results.length === 1 ? '' : 's'}${results.length === data.recipes.length ? '' : ` of ${data.recipes.length}`}` : 'Loading…')}
             </p>
