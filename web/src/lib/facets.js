@@ -53,6 +53,7 @@ export function cleanCuisine(recipe) {
   for (const raw of tags) {
     if (!raw) continue;
     const key = String(raw).trim().toLowerCase();
+    if (key === "none" || key === "n/a") continue; // "None" means no cuisine tag
     if (REGION_ALIASES[key]) { regions.add(REGION_ALIASES[key]); continue; }
     countries.add(COUNTRY_ALIASES[key] || String(raw).trim());
   }
