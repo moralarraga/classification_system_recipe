@@ -63,6 +63,13 @@ export default function App() {
     addEventListener('hashchange', onHash);
     return () => removeEventListener('hashchange', onHash);
   }, []);
+  // Lock the page behind the mobile filters panel (position: fixed also works on iOS Safari).
+  useEffect(() => {
+    if (!filtersOpen || !matchMedia('(max-width: 800px)').matches) return;
+    const y = scrollY, b = document.body;
+    b.style.top = `-${y}px`; b.classList.add('no-scroll');
+    return () => { b.classList.remove('no-scroll'); b.style.top = ''; scrollTo(0, y); };
+  }, [filtersOpen]);
   useEffect(() => {
     const k = (e) => { if (e.key === 'Escape') { setOpenId(null); setFiltersOpen(false); } };
     addEventListener('keydown', k);

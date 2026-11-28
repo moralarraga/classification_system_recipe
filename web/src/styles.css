@@ -255,10 +255,12 @@ a { color: var(--accent); }
   .layout { grid-template-columns: 1fr; padding: 16px; }
   .facets {
     display: none; position: fixed; z-index: 40; top: 0; left: 0; bottom: 0;
-    width: min(320px, 85vw); max-height: none; overflow-y: auto;
+    width: min(320px, 85vw); height: 100vh; height: 100dvh; max-height: none; align-self: stretch;
+    overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
     padding: 16px; border-radius: 0;
   }
   .filters-open .facets { display: block; }
+  body.no-scroll { position: fixed; left: 0; right: 0; overflow: hidden; }
   .filters-open .filters-backdrop { display: block; position: fixed; inset: 0; z-index: 39; background: rgba(78, 54, 38, .5); }
   .site-header { align-items: center; }
   .brand { flex: 1; min-width: 0; }
