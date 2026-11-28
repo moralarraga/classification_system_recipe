@@ -1,5 +1,6 @@
 import {useEffect, useMemo, useState} from 'react';
 import {AnimatePresence, MotionConfig} from 'framer-motion';
+import {Analytics} from '@vercel/analytics/react';
 import {FACETS} from './lib/facets.js';
 import {buildSearchIndex, searchRecipes} from './lib/search.js';
 import {prepare, filterRecipes, sortRecipes, readHash, writeHash, SORTS, defaultSort} from './lib/browse.js';
@@ -180,6 +181,7 @@ export default function App() {
             onSave={() => toggleSaved(open.id)} onOpen={setOpenId} onClose={() => setOpenId(null)} />
         )}
       </AnimatePresence>
+      <Analytics />
     </MotionConfig>
   );
 }
